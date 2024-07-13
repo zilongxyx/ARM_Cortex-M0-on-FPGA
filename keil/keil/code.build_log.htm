@@ -1,0 +1,124 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 ASUS, 123, LIC=HN0AE-54Y9Y-Z90G9-4F1WG-9BMK5-94ETA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  G:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+G:\yaner\FPGA\≤ƒ¡œÃ·Ωª\final\final\keil\keil\code.uvprojx
+Project File Date:  05/09/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'G:\MDK5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+code_def.h(392): warning:  #1295-D: Deprecated declaration Key_Scan - give arg types
+  uint8_t Key_Scan();
+code_def.h(432): warning:  #1-D: last line of file ends without a newline
+  #endif
+mpuiic.h(17): warning:  #1295-D: Deprecated declaration channel_select - give arg types
+  void channel_select();
+pajiic.h(18): warning:  #1295-D: Deprecated declaration paj_wakeup - give arg types
+  uint8_t paj_wakeup();
+pajiic.h(19): warning:  #1295-D: Deprecated declaration paj_init - give arg types
+  uint8_t paj_init();
+pajiic.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+game.h(29): warning:  #1295-D: Deprecated declaration move_enemies - give arg types
+  void move_enemies();
+game.h(30): warning:  #1295-D: Deprecated declaration init_enemies - give arg types
+  void init_enemies();
+game.h(31): warning:  #1295-D: Deprecated declaration init_bullets - give arg types
+  void init_bullets();
+game.h(32): warning:  #1295-D: Deprecated declaration update_bullet_position - give arg types
+  void update_bullet_position();
+game.h(35): warning:  #1295-D: Deprecated declaration game_init - give arg types
+  void game_init();
+game.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(79): warning:  #1295-D: Deprecated declaration begin_show - give arg types
+  void begin_show();
+main.c(80): warning:  #1295-D: Deprecated declaration over_show - give arg types
+  void over_show();
+main.c(81): warning:  #1295-D: Deprecated declaration gaming_show - give arg types
+  void gaming_show();
+main.c(82): warning:  #1295-D: Deprecated declaration gamepad_mode - give arg types
+  void gamepad_mode();
+main.c(83): warning:  #1295-D: Deprecated declaration motion_mode - give arg types
+  void motion_mode();
+main.c(84): warning:  #1295-D: Deprecated declaration key_mode - give arg types
+  void key_mode();
+main.c(85): warning:  #1295-D: Deprecated declaration intelligence_mode - give arg types
+  void intelligence_mode();
+main.c(86): warning:  #1295-D: Deprecated declaration collision_check - give arg types
+  void collision_check();
+main.c(87): warning:  #1295-D: Deprecated declaration level_improve - give arg types
+  void level_improve();
+main.c(88): warning:  #1295-D: Deprecated declaration show_init - give arg types
+  void show_init();
+main.c(89): warning:  #1295-D: Deprecated declaration esp8266_init - give arg types
+  void esp8266_init();
+main.c(90): warning:  #1295-D: Deprecated declaration esp8266_delay - give arg types
+  void esp8266_delay();
+main.c(91): warning:  #1295-D: Deprecated declaration volumn_change - give arg types
+  void volumn_change();
+main.c(106): warning:  #223-D: function "PCF8591_Init" declared implicitly
+  	PCF8591_Init();  //PCF8591 init
+main.c(94): warning:  #550-D: variable "x"  was set but never used
+  	uint16_t x, y;
+main.c(94): warning:  #550-D: variable "y"  was set but never used
+  	uint16_t x, y;
+main.c(95): warning:  #177-D: variable "k"  was declared but never referenced
+  	unsigned char k = 0;
+main.c(96): warning:  #177-D: variable "life"  was declared but never referenced
+  	uint8_t life = 3;
+main.c(97): warning:  #177-D: variable "time"  was declared but never referenced
+  	uint16_t time=0;
+main.c(98): warning:  #550-D: variable "dx"  was set but never used
+  	uint8_t dx, dy;
+main.c(98): warning:  #550-D: variable "dy"  was set but never used
+  	uint8_t dx, dy;
+main.c(639): warning:  #186-D: pointless comparison of unsigned integer with zero
+  			if(volume<0)
+main.c: 34 warnings, 0 errors
+linking...
+.\code.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=9068 RO-data=2592 RW-data=7668 ZI-data=1244  
+Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+After Build - User command #1: fromelf -cvf .\code.axf --vhx --32x1 -o code.hex
+After Build - User command #2: fromelf -cvf .\code.axf -o code.txt
+".\code.axf" - 0 Error(s), 35 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.V2M-MPS2_CMx_BSP.1.8.1.pack
+                Keil.V2M-MPS2_CMx_BSP.1.8.1
+                ARM V2M-MPS2 Board Support PACK for Cortex-M System Design Kit Devices
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  G:\MDK5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

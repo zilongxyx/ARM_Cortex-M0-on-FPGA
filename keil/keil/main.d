@@ -1,0 +1,11 @@
+.\main.o: main.c
+.\main.o: code_def.h
+.\main.o: G:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: sflash.h
+.\main.o: G:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\main.o: G:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\main.o: G:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\main.o: mpuiic.h
+.\main.o: ld3320.h
+.\main.o: pajiic.h
+.\main.o: game.h

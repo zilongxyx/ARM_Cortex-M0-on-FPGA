@@ -1,0 +1,78 @@
+standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        90
+  #input                   22
+  #output                  49
+  #inout                   19
+
+LUT Statistics
+#Total_luts              6574
+  #lut4                  4248
+  #lut5                  1883
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             443
+
+Utilization Statistics
+#lut                     6574   out of  19600   33.54%
+#reg                     1730   out of  19600    8.83%
+#le                         0
+#dsp                        3   out of     29   10.34%
+#bram                       5   out of     64    7.81%
+  #bram9k                   5
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#dram                       8
+#pad                       82   out of    188   43.62%
+  #ireg                     4
+  #oreg                    23
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------+
+|Instance               |Module               |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------+
+|top                    |CortexM0_SoC         |6131    |443     |1757    |13      |3       |
+|  BlockROM1            |BlockROM1            |0       |0       |0       |1       |0       |
+|  BlockROM2            |BlockROM2            |0       |0       |0       |1       |0       |
+|  BlockROM3            |BlockROM3            |0       |0       |0       |1       |0       |
+|  CLK_gen              |PLL                  |0       |0       |0       |0       |0       |
+|  GPIO_Interface       |AHBlite_GPIO         |25      |0       |12      |0       |0       |
+|  Interconncet         |AHBlite_Interconnect |17      |0       |13      |0       |0       |
+|    Decoder            |AHBlite_Decoder      |15      |0       |0       |0       |0       |
+|    SlaveMUX           |AHBlite_SlaveMUX     |0       |0       |13      |0       |0       |
+|  LCD_INI              |LCD_INI              |10      |61      |20      |2       |0       |
+|    AddrIni            |AddrIni              |0       |61      |17      |0       |0       |
+|    BlockROM_Data      |BlockROM16           |0       |0       |0       |1       |0       |
+|    BlockROM_Flag      |BlockROM9            |0       |0       |0       |1       |0       |
+|    WriteCtrl          |WriteCtrl            |5       |0       |3       |0       |0       |
+|  LCD_Interface        |AHBlite_LCD          |78      |0       |31      |0       |0       |
+|  LED_Interface        |AHBlite_LED          |71      |33      |62      |0       |0       |
+|  Matrix_Key_Interface |AHBlite_Matrix_Key   |3       |0       |1       |0       |0       |
+|  PAJ_IIC_Interface    |AHBlite_PAJ_IIC      |11      |0       |4       |0       |0       |
+|  QN8027_IIC_Interface |AHBlite_QN8027_IIC   |9       |0       |4       |0       |0       |
+|  RAMCODE_Interface    |AHBlite_Block_RAM    |16      |0       |17      |0       |0       |
+|  RAMDATA_Interface    |AHBlite_Block_RAM    |18      |0       |17      |0       |0       |
+|  RAM_CODE             |Block_RAM            |4       |0       |0       |4       |0       |
+|  RAM_DATA             |Block_RAM            |4       |0       |0       |4       |0       |
+|  SPI_Interface        |AHBlite_SPI          |21      |13      |15      |0       |0       |
+|  UART1_RX             |UART_RX              |27      |0       |20      |0       |0       |
+|  UART1_TX             |UART_TX              |55      |0       |18      |0       |0       |
+|    FIFO               |FIFO                 |27      |0       |12      |0       |0       |
+|  UART2_Interface      |AHBlite_UART         |8       |0       |6       |0       |0       |
+|  UART2_RX             |UART_RX              |28      |0       |20      |0       |0       |
+|  UART2_TX             |UART_TX              |55      |0       |18      |0       |0       |
+|    FIFO               |FIFO                 |27      |0       |12      |0       |0       |
+|  UART_Interface       |AHBlite_UART         |13      |0       |6       |0       |0       |
+|  addr_cnt             |addr_cnt             |8       |9       |8       |0       |0       |
+|  beat_cnt             |beat_cnt             |23      |29      |28      |0       |0       |
+|  bzmusic_ctrl         |bzmusic_ctrl         |65      |0       |7       |0       |0       |
+|  clkuart1_pwm         |clkuart_pwm          |17      |29      |14      |0       |0       |
+|  clkuart2_pwm         |clkuart_pwm_uart2    |12      |21      |10      |0       |0       |
+|  keyboard             |key_16               |35      |54      |59      |0       |0       |
+|  tune_pwm             |tune_pwm             |91      |21      |21      |0       |0       |
+|  u_logic              |cortexm0ds_logic     |5370    |173     |1297    |0       |3       |
++------------------------------------------------------------------------------------------+

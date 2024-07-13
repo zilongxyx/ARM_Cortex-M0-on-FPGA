@@ -1,0 +1,183 @@
+standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        90
+  #input                   22
+  #output                  49
+  #inout                   19
+
+Utilization Statistics
+#lut                     7262   out of  19600   37.05%
+#reg                     1826   out of  19600    9.32%
+#le                      7305
+  #lut only              5479   out of   7305   75.00%
+  #reg only                43   out of   7305    0.59%
+  #lut&reg               1783   out of   7305   24.41%
+#dsp                        3   out of     29   10.34%
+#bram                       5   out of     64    7.81%
+  #bram9k                   5
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#pad                       82   out of    188   43.62%
+  #ireg                     4
+  #oreg                    23
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       4   out of     16   25.00%
+
+Clock Resource Statistics
+Index     ClockNet                   Type               DriverType         Driver                                  Fanout
+#1        System_clk_dup_4           GCLK               io                 System_clk_syn_5.di                     1382
+#2        SWCLK_dup_1                GCLK               io                 SWCLK_syn_2.di                          90
+#3        kb/HCLK                    GCLK               pll                CLK_gen/pll_inst.clkc4                  36
+#4        LED_Interface/light_clk    GCLK               mslice             LED_Interface/light_clk_reg_syn_9.q0    18
+#5        keyboard/scan_clk          GCLK               mslice             keyboard/scan_clk_reg_syn_9.q1          3
+#6        CLK_gen/clk0_buf           GCLK               pll                CLK_gen/pll_inst.clkc0                  0
+#7        QN_REF24MHz_dup_1          GCLK               pll                CLK_gen/pll_inst.clkc1                  0
+
+
+Detailed IO Report
+
+      Name         Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     Col[3]          INPUT        F10        LVCMOS33          N/A          PULLUP      NONE    
+     Col[2]          INPUT        C11        LVCMOS33          N/A          PULLUP      NONE    
+     Col[1]          INPUT        D11        LVCMOS33          N/A          PULLUP      NONE    
+     Col[0]          INPUT        E11        LVCMOS33          N/A          PULLUP      IREG    
+      RSTn           INPUT         A9        LVCMOS33          N/A          PULLUP      NONE    
+      RXD_1          INPUT        G14        LVCMOS33          N/A          PULLUP      IREG    
+      RXD_2          INPUT        L16        LVCMOS33          N/A          PULLUP      IREG    
+     SPI_IRQ         INPUT        E15        LVCMOS33          N/A          PULLUP      NONE    
+    SPI_MISO         INPUT        G12        LVCMOS33          N/A          PULLUP      NONE    
+      SWCLK          INPUT         R2        LVCMOS33          N/A          PULLUP      NONE    
+   System_clk        INPUT         R7        LVCMOS33          N/A          PULLUP      NONE    
+       en1           INPUT        A10        LVCMOS33          N/A          PULLUP      NONE    
+       en2           INPUT        B10        LVCMOS33          N/A          PULLUP      NONE    
+       en3           INPUT        A11        LVCMOS33          N/A          PULLUP      NONE    
+     key[7]          INPUT        A14        LVCMOS33          N/A          PULLUP      NONE    
+     key[6]          INPUT        A13        LVCMOS33          N/A          PULLUP      NONE    
+     key[5]          INPUT        B12        LVCMOS33          N/A          PULLUP      NONE    
+     key[4]          INPUT        A12        LVCMOS33          N/A          PULLUP      NONE    
+   LCD_BL_CTR       OUTPUT         F1        LVCMOS33           8            NONE       NONE    
+     LCD_CS         OUTPUT         R1        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[15]      OUTPUT         H2        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[14]      OUTPUT         F4        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[13]      OUTPUT         J1        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[12]      OUTPUT         G5        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[11]      OUTPUT         K2        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[10]      OUTPUT         G6        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[9]      OUTPUT         L5        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[8]      OUTPUT         H3        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[7]      OUTPUT         M4        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[6]      OUTPUT         J6        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[5]      OUTPUT         N4        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[4]      OUTPUT         K1        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[3]      OUTPUT         P4        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[2]      OUTPUT         L1        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[1]      OUTPUT         M1        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[0]      OUTPUT         N3        LVCMOS33           8            NONE       NONE    
+     LCD_RD         OUTPUT         J3        LVCMOS33           8            NONE       NONE    
+     LCD_RS         OUTPUT         J4        LVCMOS33           8            NONE       NONE    
+     LCD_RST        OUTPUT         N1        LVCMOS33           8            NONE       NONE    
+     LCD_WR         OUTPUT         P1        LVCMOS33           8            NONE       NONE    
+     LED[7]         OUTPUT        H16        LVCMOS33           8            N/A        NONE    
+     LED[6]         OUTPUT         B6        LVCMOS33           8            N/A        NONE    
+     LED[5]         OUTPUT        M12        LVCMOS33           8            N/A        NONE    
+     LED[4]         OUTPUT         E8        LVCMOS33           8            N/A        NONE    
+     LED[3]         OUTPUT         A7        LVCMOS33           8            N/A        NONE    
+     LED[2]         OUTPUT        R16        LVCMOS33           8            N/A        NONE    
+     LED[1]         OUTPUT         N9        LVCMOS33           8            N/A        NONE    
+     LED[0]         OUTPUT         E4        LVCMOS33           8            N/A        NONE    
+   PAJ_IIC_SCL      OUTPUT         K5        LVCMOS33           8            NONE       OREG    
+   QN_IIC_SCL       OUTPUT        K15        LVCMOS33           8            NONE       OREG    
+   QN_REF24MHz      OUTPUT        T15        LVCMOS33           8            N/A        NONE    
+     Row[3]         OUTPUT         D9        LVCMOS33           8            NONE       OREG    
+     Row[2]         OUTPUT         F9        LVCMOS33           8            NONE       OREG    
+     Row[1]         OUTPUT        C10        LVCMOS33           8            NONE       OREG    
+     Row[0]         OUTPUT        E10        LVCMOS33           8            NONE       OREG    
+     SPI_CLK        OUTPUT        F15        LVCMOS33           8            NONE       OREG    
+     SPI_CS         OUTPUT        D16        LVCMOS33           8            NONE       OREG    
+    SPI_MOSI        OUTPUT        F13        LVCMOS33           8            NONE       OREG    
+      TXD_1         OUTPUT        H14        LVCMOS33           8            NONE       OREG    
+      TXD_2         OUTPUT        P14        LVCMOS33           8            NONE       OREG    
+      beep          OUTPUT        H11        LVCMOS33           8            NONE       OREG    
+    led_test        OUTPUT        B14        LVCMOS33           8            NONE       NONE    
+  led_test_mode     OUTPUT        B15        LVCMOS33           8            NONE       OREG    
+      IO[7]          INOUT        N16        LVCMOS33           8           PULLUP      OREG    
+      IO[6]          INOUT        E16        LVCMOS33           8           PULLUP      OREG    
+      IO[5]          INOUT        E13        LVCMOS33           8           PULLUP      OREG    
+      IO[4]          INOUT        C16        LVCMOS33           8           PULLUP      OREG    
+      IO[3]          INOUT        C15        LVCMOS33           8           PULLUP      OREG    
+      IO[2]          INOUT        B16        LVCMOS33           8           PULLUP      OREG    
+      IO[1]          INOUT        D14        LVCMOS33           8           PULLUP      OREG    
+      IO[0]          INOUT        F14        LVCMOS33           8           PULLUP      OREG    
+   IO_READ[7]        INOUT        N14        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[6]        INOUT        P16        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[5]        INOUT        P15        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[4]        INOUT        L12        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[3]        INOUT        M11        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[2]        INOUT        H15        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[1]        INOUT        K14        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[0]        INOUT        M15        LVCMOS33           8           PULLUP      NONE    
+   PAJ_IIC_SDA       INOUT         L3        LVCMOS33           8           PULLUP      OREG    
+   QN_IIC_SDA        INOUT        J11        LVCMOS33           8           PULLUP      OREG    
+      SWDIO          INOUT         P2        LVCMOS33           8           PULLUP      IREG    
+
+Report Hierarchy Area:
++--------------------------------------------------------------------------------------------------+
+|Instance               |Module               |le     |lut     |ripple  |seq     |bram    |dsp     |
++--------------------------------------------------------------------------------------------------+
+|top                    |CortexM0_SoC         |7305   |7091    |171     |1853    |13      |3       |
+|  BlockROM1            |BlockROM1            |0      |0       |0       |0       |1       |0       |
+|  BlockROM2            |BlockROM2            |0      |0       |0       |0       |1       |0       |
+|  BlockROM3            |BlockROM3            |0      |0       |0       |0       |1       |0       |
+|  CLK_gen              |PLL                  |0      |0       |0       |0       |0       |0       |
+|  GPIO_Interface       |AHBlite_GPIO         |22     |22      |0       |6       |0       |0       |
+|  Interconncet         |AHBlite_Interconnect |16     |16      |0       |11      |0       |0       |
+|    Decoder            |AHBlite_Decoder      |6      |6       |0       |1       |0       |0       |
+|    SlaveMUX           |AHBlite_SlaveMUX     |10     |10      |0       |10      |0       |0       |
+|  LCD_INI              |LCD_INI              |70     |39      |31      |17      |2       |0       |
+|    AddrIni            |AddrIni              |62     |31      |31      |17      |0       |0       |
+|    BlockROM_Data      |BlockROM16           |0      |0       |0       |0       |1       |0       |
+|    BlockROM_Flag      |BlockROM9            |0      |0       |0       |0       |1       |0       |
+|    WriteCtrl          |WriteCtrl            |2      |2       |0       |0       |0       |0       |
+|  LCD_Interface        |AHBlite_LCD          |98     |98      |0       |30      |0       |0       |
+|  LED_Interface        |AHBlite_LED          |97     |82      |9       |57      |0       |0       |
+|  Matrix_Key_Interface |AHBlite_Matrix_Key   |2      |2       |0       |1       |0       |0       |
+|  PAJ_IIC_Interface    |AHBlite_PAJ_IIC      |14     |14      |0       |3       |0       |0       |
+|  QN8027_IIC_Interface |AHBlite_QN8027_IIC   |12     |12      |0       |4       |0       |0       |
+|  RAMCODE_Interface    |AHBlite_Block_RAM    |34     |34      |0       |10      |0       |0       |
+|  RAMDATA_Interface    |AHBlite_Block_RAM    |33     |33      |0       |15      |0       |0       |
+|  RAM_CODE             |Block_RAM            |8      |8       |0       |0       |4       |0       |
+|  RAM_DATA             |Block_RAM            |8      |8       |0       |0       |4       |0       |
+|  SPI_Interface        |AHBlite_SPI          |38     |31      |7       |16      |0       |0       |
+|  UART1_RX             |UART_RX              |26     |26      |0       |17      |0       |0       |
+|  UART1_TX             |UART_TX              |86     |86      |0       |18      |0       |0       |
+|    FIFO               |FIFO                 |57     |57      |0       |13      |0       |0       |
+|  UART2_Interface      |AHBlite_UART         |12     |12      |0       |6       |0       |0       |
+|  UART2_RX             |UART_RX              |28     |28      |0       |17      |0       |0       |
+|  UART2_TX             |UART_TX              |83     |83      |0       |22      |0       |0       |
+|    FIFO               |FIFO                 |57     |57      |0       |15      |0       |0       |
+|  UART_Interface       |AHBlite_UART         |18     |18      |0       |7       |0       |0       |
+|  addr_cnt             |addr_cnt             |16     |11      |5       |6       |0       |0       |
+|  beat_cnt             |beat_cnt             |41     |32      |8       |27      |0       |0       |
+|  bzmusic_ctrl         |bzmusic_ctrl         |68     |68      |0       |12      |0       |0       |
+|  clkuart1_pwm         |clkuart_pwm          |47     |32      |15      |14      |0       |0       |
+|  clkuart2_pwm         |clkuart_pwm_uart2    |34     |23      |11      |10      |0       |0       |
+|  keyboard             |key_16               |80     |51      |15      |53      |0       |0       |
+|  tune_pwm             |tune_pwm             |124    |113     |11      |23      |0       |0       |
+|  u_logic              |cortexm0ds_logic     |6144   |6063    |59      |1415    |0       |3       |
++--------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       3263  
+    #2         2       2063  
+    #3         3       814   
+    #4         4       525   
+    #5        5-10     907   
+    #6       11-50     512   
+    #7       51-100     15   
+  Average     3.73           

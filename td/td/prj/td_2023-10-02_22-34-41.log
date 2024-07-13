@@ -1,0 +1,21 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = F:/td/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     ASUS
+   Run Date =   Mon Oct  2 22:34:41 2023
+
+   Run on =     DESKTOP-BICF4SF
+============================================================
+RUN-1002 : start command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 12 -bit CortexM0_SOC_Runs/phy_1/CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 9 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 9 -p" in  7.322798s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (0.4%)
+
+RUN-1004 : used memory is 191 MB, reserved memory is 162 MB, peak memory is 222 MB
+RUN-1003 : finish command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0" in  7.745839s wall, 0.171875s user + 0.015625s system = 0.187500s CPU (2.4%)
+
+RUN-1004 : used memory is 192 MB, reserved memory is 162 MB, peak memory is 222 MB
+GUI-1001 : Downloading succeeded!

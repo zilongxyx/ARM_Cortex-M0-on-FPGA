@@ -1,0 +1,98 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/TD/bin/td.exe
+   Run by =     ASUS
+   Run Date =   Sat Apr 15 22:43:51 2023
+
+   Run on =     DESKTOP-BICF4SF
+============================================================
+RUN-001 : GUI based run...
+RUN-1002 : start command "open_project CortexM0_SOC.al"
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_LED.v
+HDL-5007 WARNING: identifier 'mode1' is used before its declaration in ../rtl/AHBlite_LED.v(38)
+HDL-5007 WARNING: identifier 'mode2' is used before its declaration in ../rtl/AHBlite_LED.v(38)
+HDL-5007 WARNING: identifier 'mode3' is used before its declaration in ../rtl/AHBlite_LED.v(38)
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Matrix_Key.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../rtl/Block_RAM.v
+HDL-5007 WARNING: converting concatenation to assignment pattern in ../rtl/Block_RAM.v(12)
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : analyze included file F:/jichuangsai/week1_test/rtl/global_def.v in ../rtl/CortexM0_SoC.v(1)
+HDL-1007 : back to file '../rtl/CortexM0_SoC.v' in ../rtl/CortexM0_SoC.v(1)
+HDL-5007 WARNING: 'clk' is already implicitly declared on line 51 in ../rtl/CortexM0_SoC.v(72)
+HDL-1007 : analyze verilog file ../rtl/cortexm0ds_logic.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_QN8027_IIC.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_UART.v
+HDL-1007 : analyze verilog file ../rtl/clkuart_pwm.v
+HDL-1007 : analyze verilog file ../rtl/UART_RX.v
+HDL-1007 : analyze verilog file ../rtl/UART_TX.v
+HDL-1007 : analyze verilog file ../rtl/FIFO.v
+HDL-1007 : analyze verilog file ../rtl/GPIO_IO.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SPI.v
+HDL-1007 : analyze verilog file ../../ARM_Cortex-M0-main/SD_card/SD_card/prj/al_ip/PLL.v
+HDL-1007 : analyze verilog file ../../ARM_Cortex-M0-main/SD_card/SD_card/rtl/Keyboard.v
+RUN-1001 : Project manager successfully analyzed 19 source files.
+RUN-1003 : finish command "open_project CortexM0_SOC.al" in  1.177499s wall, 1.140625s user + 0.031250s system = 1.171875s CPU (99.5%)
+
+RUN-1004 : used memory is 83 MB, reserved memory is 38 MB, peak memory is 83 MB

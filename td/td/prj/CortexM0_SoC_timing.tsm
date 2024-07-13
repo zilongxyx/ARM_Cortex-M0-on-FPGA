@@ -1,0 +1,607 @@
+eagle_s20
+13 2151 23 655 6038 1860907860 12 7
+-1.902 -0.723 CortexM0_SoC eagle_s20 EG4S20BG256 Detail NA 14 2
+clock: System_clk
+13 1858836598 5900 4
+Setup check
+23 3
+Endpoint: u_logic/Vgjpw6_reg_syn_8
+23 -1.902000 12130803 3
+Timing path: u_logic/Pzkpw6_reg_syn_522.clk->u_logic/Vgjpw6_reg_syn_8
+u_logic/Pzkpw6_reg_syn_522.clk
+u_logic/Vgjpw6_reg_syn_8
+25 -1.902000 23.542000 25.444000 16 16
+u_logic/R3vpw6_dup_2 u_logic/Bfjpw6_reg_syn_3066.d[0]
+u_logic/Yp8iu6 u_logic/Lnwax6_reg_syn_8.c[0]
+u_logic/Xuzhu6_dup_1 u_logic/Glphu6_syn_3774.a[0]
+u_logic/Mifpw6[25] u_logic/mult0_syn_201.a[7]
+u_logic/mult0_syn_12 u_logic/mult0_syn_457.a[0]
+u_logic/mult0_syn_303 u_logic/mult0_syn_460.fci
+u_logic/mult0_syn_205[12] u_logic/mult0_syn_483.b[1]
+u_logic/mult0_syn_378 u_logic/mult0_syn_485.fci
+u_logic/mult0_syn_220[13] u_logic/Bfjpw6_reg_syn_2984.a[0]
+u_logic/Bfjpw6_reg_syn_1371 u_logic/S7yax6_reg_syn_8.b[0]
+u_logic/Bbliu6 u_logic/Bfjpw6_reg_syn_3568.a[0]
+u_logic/Bfjpw6_reg_syn_1527 u_logic/Oxohu6_syn_415.a[0]
+u_logic/Oxohu6_syn_78 u_logic/Oxohu6_syn_330.a[1]
+u_logic/Oxohu6_syn_80 u_logic/Glphu6_syn_4185.a[0]
+u_logic/Oxohu6_syn_105 u_logic/Oxohu6_syn_332.a[1]
+u_logic/Oxohu6_syn_108 u_logic/Vgjpw6_reg_syn_8.a[0]
+
+Timing path: u_logic/Pzkpw6_reg_syn_522.clk->u_logic/Vgjpw6_reg_syn_8
+u_logic/Pzkpw6_reg_syn_522.clk
+u_logic/Vgjpw6_reg_syn_8
+93 -1.902000 23.542000 25.444000 16 16
+u_logic/R3vpw6_dup_2 u_logic/Bfjpw6_reg_syn_3066.d[0]
+u_logic/Yp8iu6 u_logic/Lnwax6_reg_syn_8.c[0]
+u_logic/Xuzhu6_dup_1 u_logic/Glphu6_syn_3774.a[0]
+u_logic/Mifpw6[25] u_logic/mult0_syn_201.a[7]
+u_logic/mult0_syn_12 u_logic/mult0_syn_457.a[0]
+u_logic/mult0_syn_303 u_logic/mult0_syn_460.fci
+u_logic/mult0_syn_205[12] u_logic/mult0_syn_483.b[1]
+u_logic/mult0_syn_378 u_logic/mult0_syn_485.fci
+u_logic/mult0_syn_220[13] u_logic/Bfjpw6_reg_syn_2984.a[0]
+u_logic/Bfjpw6_reg_syn_1371 u_logic/S7yax6_reg_syn_8.b[0]
+u_logic/Bbliu6 u_logic/Bfjpw6_reg_syn_3568.a[1]
+u_logic/Bfjpw6_reg_syn_1527 u_logic/Oxohu6_syn_415.a[0]
+u_logic/Oxohu6_syn_78 u_logic/Oxohu6_syn_330.a[0]
+u_logic/Oxohu6_syn_80 u_logic/Glphu6_syn_4185.a[0]
+u_logic/Oxohu6_syn_105 u_logic/Oxohu6_syn_332.a[1]
+u_logic/Oxohu6_syn_108 u_logic/Vgjpw6_reg_syn_8.a[0]
+
+Timing path: u_logic/Pzkpw6_reg_syn_522.clk->u_logic/Vgjpw6_reg_syn_8
+u_logic/Pzkpw6_reg_syn_522.clk
+u_logic/Vgjpw6_reg_syn_8
+161 -1.902000 23.542000 25.444000 16 16
+u_logic/R3vpw6_dup_2 u_logic/Bfjpw6_reg_syn_3066.d[0]
+u_logic/Yp8iu6 u_logic/Lnwax6_reg_syn_8.c[0]
+u_logic/Xuzhu6_dup_1 u_logic/Glphu6_syn_3774.a[0]
+u_logic/Mifpw6[25] u_logic/mult0_syn_201.a[7]
+u_logic/mult0_syn_12 u_logic/mult0_syn_457.a[0]
+u_logic/mult0_syn_303 u_logic/mult0_syn_460.fci
+u_logic/mult0_syn_205[12] u_logic/mult0_syn_483.b[1]
+u_logic/mult0_syn_378 u_logic/mult0_syn_485.fci
+u_logic/mult0_syn_220[13] u_logic/Bfjpw6_reg_syn_2984.a[0]
+u_logic/Bfjpw6_reg_syn_1371 u_logic/S7yax6_reg_syn_8.b[0]
+u_logic/Bbliu6 u_logic/Bfjpw6_reg_syn_3568.a[0]
+u_logic/Bfjpw6_reg_syn_1527 u_logic/Oxohu6_syn_415.a[0]
+u_logic/Oxohu6_syn_78 u_logic/Oxohu6_syn_330.a[0]
+u_logic/Oxohu6_syn_80 u_logic/Glphu6_syn_4185.a[0]
+u_logic/Oxohu6_syn_105 u_logic/Oxohu6_syn_332.a[1]
+u_logic/Oxohu6_syn_108 u_logic/Vgjpw6_reg_syn_8.a[0]
+
+
+Endpoint: u_logic/Ltwax6_reg_syn_8
+229 -1.541000 2027001 3
+Timing path: u_logic/J4xhu6_syn_680.clk->u_logic/Ltwax6_reg_syn_8
+u_logic/J4xhu6_syn_680.clk
+u_logic/Ltwax6_reg_syn_8
+231 -1.541000 23.470000 25.011000 17 18
+u_logic/C3wpw6 u_logic/Glphu6_syn_4515.d[1]
+u_logic/Glphu6_syn_1286 u_logic/Glphu6_syn_3870.b[1]
+u_logic/Xttow6 u_logic/Glphu6_syn_4262.a[1]
+u_logic/Glphu6_syn_1423 u_logic/Glphu6_syn_4325.d[1]
+u_logic/Glphu6_syn_1437 u_logic/Glphu6_syn_3754.a[0]
+u_logic/Glphu6_syn_1443 u_logic/Glphu6_syn_3752.a[1]
+u_logic/Glphu6_syn_1454 u_logic/Wu3bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1458 u_logic/Glphu6_syn_4274.a[1]
+u_logic/Glphu6_syn_1490 u_logic/Glphu6_syn_4250.a[1]
+u_logic/Glphu6_syn_1494 u_logic/Glphu6_syn_5003.a[0]
+u_logic/Glphu6_syn_1631 u_logic/Glphu6_syn_4957.d[1]
+u_logic/Glphu6_syn_1635 u_logic/Glphu6_syn_4399.c[0]
+u_logic/Glphu6_syn_1657 u_logic/Glphu6_syn_4270.a[1]
+u_logic/Glphu6_syn_1690 u_logic/Glphu6_syn_4136.a[0]
+u_logic/Glphu6_syn_1770 u_logic/Glphu6_syn_4221.a[1]
+u_logic/Glphu6_syn_1774 u_logic/Qkohu6_syn_319.d[0]
+u_logic/Slohu6_syn_5 u_logic/O8sax6_reg_syn_8.b[1]
+u_logic/Jlmiu6 u_logic/Ltwax6_reg_syn_8.mi[1]
+
+Timing path: u_logic/J4xhu6_syn_680.clk->u_logic/Ltwax6_reg_syn_8
+u_logic/J4xhu6_syn_680.clk
+u_logic/Ltwax6_reg_syn_8
+303 -1.541000 23.470000 25.011000 17 18
+u_logic/C3wpw6 u_logic/Glphu6_syn_4515.d[1]
+u_logic/Glphu6_syn_1286 u_logic/Glphu6_syn_3870.b[1]
+u_logic/Xttow6 u_logic/Glphu6_syn_4262.a[0]
+u_logic/Glphu6_syn_1423 u_logic/Glphu6_syn_4325.d[1]
+u_logic/Glphu6_syn_1437 u_logic/Glphu6_syn_3754.a[0]
+u_logic/Glphu6_syn_1443 u_logic/Glphu6_syn_3752.a[1]
+u_logic/Glphu6_syn_1454 u_logic/Wu3bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1458 u_logic/Glphu6_syn_4274.a[1]
+u_logic/Glphu6_syn_1490 u_logic/Glphu6_syn_4250.a[1]
+u_logic/Glphu6_syn_1494 u_logic/Glphu6_syn_5003.a[0]
+u_logic/Glphu6_syn_1631 u_logic/Glphu6_syn_4957.d[1]
+u_logic/Glphu6_syn_1635 u_logic/Glphu6_syn_4399.c[0]
+u_logic/Glphu6_syn_1657 u_logic/Glphu6_syn_4270.a[1]
+u_logic/Glphu6_syn_1690 u_logic/Glphu6_syn_4136.a[0]
+u_logic/Glphu6_syn_1770 u_logic/Glphu6_syn_4221.a[1]
+u_logic/Glphu6_syn_1774 u_logic/Qkohu6_syn_319.d[0]
+u_logic/Slohu6_syn_5 u_logic/O8sax6_reg_syn_8.b[1]
+u_logic/Jlmiu6 u_logic/Ltwax6_reg_syn_8.mi[1]
+
+Timing path: u_logic/J4xhu6_syn_680.clk->u_logic/Ltwax6_reg_syn_8
+u_logic/J4xhu6_syn_680.clk
+u_logic/Ltwax6_reg_syn_8
+375 -1.541000 23.470000 25.011000 17 18
+u_logic/C3wpw6 u_logic/Glphu6_syn_4515.d[1]
+u_logic/Glphu6_syn_1286 u_logic/Glphu6_syn_3870.b[1]
+u_logic/Xttow6 u_logic/Glphu6_syn_4262.a[1]
+u_logic/Glphu6_syn_1423 u_logic/Glphu6_syn_4325.d[1]
+u_logic/Glphu6_syn_1437 u_logic/Glphu6_syn_3754.a[0]
+u_logic/Glphu6_syn_1443 u_logic/Glphu6_syn_3752.a[1]
+u_logic/Glphu6_syn_1454 u_logic/Wu3bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1458 u_logic/Glphu6_syn_4274.a[1]
+u_logic/Glphu6_syn_1490 u_logic/Glphu6_syn_4250.a[0]
+u_logic/Glphu6_syn_1494 u_logic/Glphu6_syn_5003.a[0]
+u_logic/Glphu6_syn_1631 u_logic/Glphu6_syn_4957.d[1]
+u_logic/Glphu6_syn_1635 u_logic/Glphu6_syn_4399.c[0]
+u_logic/Glphu6_syn_1657 u_logic/Glphu6_syn_4270.a[1]
+u_logic/Glphu6_syn_1690 u_logic/Glphu6_syn_4136.a[0]
+u_logic/Glphu6_syn_1770 u_logic/Glphu6_syn_4221.a[0]
+u_logic/Glphu6_syn_1774 u_logic/Qkohu6_syn_319.d[0]
+u_logic/Slohu6_syn_5 u_logic/O8sax6_reg_syn_8.b[1]
+u_logic/Jlmiu6 u_logic/Ltwax6_reg_syn_8.mi[1]
+
+
+Endpoint: u_logic/Pzkpw6_reg_syn_516
+447 -1.421000 11525121 3
+Timing path: u_logic/Pzkpw6_reg_syn_522.clk->u_logic/Pzkpw6_reg_syn_516
+u_logic/Pzkpw6_reg_syn_522.clk
+u_logic/Pzkpw6_reg_syn_516
+449 -1.421000 23.542000 24.963000 15 16
+u_logic/R3vpw6_dup_2 u_logic/Bfjpw6_reg_syn_3066.d[0]
+u_logic/Yp8iu6 u_logic/Lnwax6_reg_syn_8.c[0]
+u_logic/Xuzhu6_dup_1 u_logic/Glphu6_syn_3774.a[0]
+u_logic/Mifpw6[25] u_logic/mult0_syn_201.a[7]
+u_logic/mult0_syn_12 u_logic/mult0_syn_457.a[0]
+u_logic/mult0_syn_303 u_logic/mult0_syn_460.fci
+u_logic/mult0_syn_205[12] u_logic/mult0_syn_483.b[1]
+u_logic/mult0_syn_378 u_logic/mult0_syn_485.fci
+u_logic/mult0_syn_220[13] u_logic/Bfjpw6_reg_syn_2984.a[0]
+u_logic/Bfjpw6_reg_syn_1371 u_logic/S7yax6_reg_syn_8.b[0]
+u_logic/Bbliu6 u_logic/Bfjpw6_reg_syn_3568.a[1]
+u_logic/Bfjpw6_reg_syn_1527 u_logic/Bfjpw6_reg_syn_3580.c[1]
+u_logic/Bfjpw6_reg_syn_1537 u_logic/Buohu6_syn_167.a[1]
+u_logic/Pl3ju6 u_logic/Pzkpw6_reg_syn_607.a[0]
+u_logic/Buohu6_syn_42 u_logic/Ydopw6_reg_syn_14.a[1]
+u_logic/Buohu6 u_logic/Pzkpw6_reg_syn_516.mi[0]
+
+Timing path: u_logic/Pzkpw6_reg_syn_522.clk->u_logic/Pzkpw6_reg_syn_516
+u_logic/Pzkpw6_reg_syn_522.clk
+u_logic/Pzkpw6_reg_syn_516
+517 -1.421000 23.542000 24.963000 15 16
+u_logic/R3vpw6_dup_2 u_logic/Bfjpw6_reg_syn_3066.d[0]
+u_logic/Yp8iu6 u_logic/Lnwax6_reg_syn_8.c[0]
+u_logic/Xuzhu6_dup_1 u_logic/Glphu6_syn_3774.a[0]
+u_logic/Mifpw6[25] u_logic/mult0_syn_201.a[7]
+u_logic/mult0_syn_12 u_logic/mult0_syn_457.a[0]
+u_logic/mult0_syn_303 u_logic/mult0_syn_460.fci
+u_logic/mult0_syn_205[12] u_logic/mult0_syn_483.b[1]
+u_logic/mult0_syn_378 u_logic/mult0_syn_485.fci
+u_logic/mult0_syn_220[13] u_logic/Bfjpw6_reg_syn_2984.a[0]
+u_logic/Bfjpw6_reg_syn_1371 u_logic/S7yax6_reg_syn_8.b[0]
+u_logic/Bbliu6 u_logic/Bfjpw6_reg_syn_3568.a[0]
+u_logic/Bfjpw6_reg_syn_1527 u_logic/Bfjpw6_reg_syn_3580.c[1]
+u_logic/Bfjpw6_reg_syn_1537 u_logic/Buohu6_syn_167.a[1]
+u_logic/Pl3ju6 u_logic/Pzkpw6_reg_syn_607.a[0]
+u_logic/Buohu6_syn_42 u_logic/Ydopw6_reg_syn_14.a[1]
+u_logic/Buohu6 u_logic/Pzkpw6_reg_syn_516.mi[0]
+
+Timing path: u_logic/Pzkpw6_reg_syn_522.clk->u_logic/Pzkpw6_reg_syn_516
+u_logic/Pzkpw6_reg_syn_522.clk
+u_logic/Pzkpw6_reg_syn_516
+585 -1.421000 23.542000 24.963000 15 16
+u_logic/R3vpw6_dup_2 u_logic/Bfjpw6_reg_syn_3066.d[0]
+u_logic/Yp8iu6 u_logic/Lnwax6_reg_syn_8.c[0]
+u_logic/Xuzhu6_dup_1 u_logic/Glphu6_syn_3774.a[0]
+u_logic/Mifpw6[25] u_logic/mult0_syn_201.a[7]
+u_logic/mult0_syn_12 u_logic/mult0_syn_457.a[0]
+u_logic/mult0_syn_303 u_logic/mult0_syn_460.fci
+u_logic/mult0_syn_205[12] u_logic/mult0_syn_483.b[1]
+u_logic/mult0_syn_378 u_logic/mult0_syn_485.fci
+u_logic/mult0_syn_220[13] u_logic/Bfjpw6_reg_syn_2984.a[0]
+u_logic/Bfjpw6_reg_syn_1371 u_logic/S7yax6_reg_syn_8.b[0]
+u_logic/Bbliu6 u_logic/Bfjpw6_reg_syn_3568.a[1]
+u_logic/Bfjpw6_reg_syn_1527 u_logic/Bfjpw6_reg_syn_3580.c[0]
+u_logic/Bfjpw6_reg_syn_1537 u_logic/Buohu6_syn_167.a[1]
+u_logic/Pl3ju6 u_logic/Pzkpw6_reg_syn_607.a[0]
+u_logic/Buohu6_syn_42 u_logic/Ydopw6_reg_syn_14.a[1]
+u_logic/Buohu6 u_logic/Pzkpw6_reg_syn_516.mi[0]
+
+
+
+Hold check
+653 3
+Endpoint: bzmusic_ctrl/addr_en_reg_syn_8
+655 -0.723000 3 3
+Timing path: bzmusic_ctrl/next_state[1]_syn_271.clk->bzmusic_ctrl/addr_en_reg_syn_8
+bzmusic_ctrl/next_state[1]_syn_271.clk
+bzmusic_ctrl/addr_en_reg_syn_8
+657 -0.723000 3.796000 3.073000 1 1
+keyboard/key_reg1[0] bzmusic_ctrl/addr_en_reg_syn_8.mi[0]
+
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->bzmusic_ctrl/addr_en_reg_syn_8
+tune_pwm/clk_pwm_reg_syn_332.clk
+bzmusic_ctrl/addr_en_reg_syn_8
+693 -0.391000 3.796000 3.405000 1 1
+keyboard/key_reg0[0] bzmusic_ctrl/addr_en_reg_syn_8.d[1]
+
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->bzmusic_ctrl/addr_en_reg_syn_8
+tune_pwm/clk_pwm_reg_syn_332.clk
+bzmusic_ctrl/addr_en_reg_syn_8
+729 -0.391000 3.796000 3.405000 1 1
+keyboard/key_reg0[0] bzmusic_ctrl/addr_en_reg_syn_8.d[0]
+
+
+Endpoint: bzmusic_ctrl/next_state[1]_syn_240
+765 -0.412000 3 3
+Timing path: bzmusic_ctrl/next_state[1]_syn_271.clk->bzmusic_ctrl/next_state[1]_syn_240
+bzmusic_ctrl/next_state[1]_syn_271.clk
+bzmusic_ctrl/next_state[1]_syn_240
+767 -0.412000 3.796000 3.384000 1 2
+keyboard/key_reg1[0] bzmusic_ctrl/addr_en_reg_syn_8.mi[0]
+bzmusic_ctrl/addr_en_n bzmusic_ctrl/next_state[1]_syn_240.mi[0]
+
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->bzmusic_ctrl/next_state[1]_syn_240
+tune_pwm/clk_pwm_reg_syn_332.clk
+bzmusic_ctrl/next_state[1]_syn_240
+805 -0.080000 3.796000 3.716000 1 2
+keyboard/key_reg0[0] bzmusic_ctrl/addr_en_reg_syn_8.d[1]
+bzmusic_ctrl/addr_en_n bzmusic_ctrl/next_state[1]_syn_240.mi[0]
+
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->bzmusic_ctrl/next_state[1]_syn_240
+tune_pwm/clk_pwm_reg_syn_332.clk
+bzmusic_ctrl/next_state[1]_syn_240
+843 -0.080000 3.796000 3.716000 1 2
+keyboard/key_reg0[0] bzmusic_ctrl/addr_en_reg_syn_8.d[0]
+bzmusic_ctrl/addr_en_n bzmusic_ctrl/next_state[1]_syn_240.mi[0]
+
+
+Endpoint: bzmusic_ctrl/addr_rstn_reg_syn_8
+881 -0.007000 3 3
+Timing path: bzmusic_ctrl/next_state[1]_syn_271.clk->bzmusic_ctrl/addr_rstn_reg_syn_8
+bzmusic_ctrl/next_state[1]_syn_271.clk
+bzmusic_ctrl/addr_rstn_reg_syn_8
+883 -0.007000 3.796000 3.789000 2 2
+keyboard/key_reg1[0] bzmusic_ctrl/addr_en_reg_syn_8.mi[0]
+bzmusic_ctrl/addr_en_n bzmusic_ctrl/addr_rstn_reg_syn_8.d[0]
+
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->bzmusic_ctrl/addr_rstn_reg_syn_8
+tune_pwm/clk_pwm_reg_syn_332.clk
+bzmusic_ctrl/addr_rstn_reg_syn_8
+921 0.325000 3.796000 4.121000 2 2
+keyboard/key_reg0[0] bzmusic_ctrl/addr_en_reg_syn_8.d[1]
+bzmusic_ctrl/addr_en_n bzmusic_ctrl/addr_rstn_reg_syn_8.d[0]
+
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->bzmusic_ctrl/addr_rstn_reg_syn_8
+tune_pwm/clk_pwm_reg_syn_332.clk
+bzmusic_ctrl/addr_rstn_reg_syn_8
+959 0.325000 3.796000 4.121000 2 2
+keyboard/key_reg0[0] bzmusic_ctrl/addr_en_reg_syn_8.d[0]
+bzmusic_ctrl/addr_en_n bzmusic_ctrl/addr_rstn_reg_syn_8.d[0]
+
+
+
+Recovery check
+997 3
+Endpoint: u_logic/Pjgbx6_reg_syn_5
+999 16.604000 1 1
+Timing path: u_logic/Glphu6_syn_3784.clk->u_logic/Pjgbx6_reg_syn_5
+u_logic/Glphu6_syn_3784.clk
+u_logic/Pjgbx6_reg_syn_5
+1001 16.604000 23.358000 6.754000 0 1
+cpuresetn_dup_63 u_logic/Pjgbx6_reg_syn_5.sr
+
+
+Endpoint: u_logic/Qf4bx6_reg_syn_5
+1039 16.604000 1 1
+Timing path: u_logic/Glphu6_syn_3784.clk->u_logic/Qf4bx6_reg_syn_5
+u_logic/Glphu6_syn_3784.clk
+u_logic/Qf4bx6_reg_syn_5
+1041 16.604000 23.358000 6.754000 0 1
+cpuresetn_dup_63 u_logic/Qf4bx6_reg_syn_5.sr
+
+
+Endpoint: u_logic/Glphu6_syn_3746
+1079 16.923000 1 1
+Timing path: u_logic/Glphu6_syn_3784.clk->u_logic/Glphu6_syn_3746
+u_logic/Glphu6_syn_3784.clk
+u_logic/Glphu6_syn_3746
+1081 16.923000 23.386000 6.463000 0 1
+cpuresetn_dup_63 u_logic/Glphu6_syn_3746.sr
+
+
+
+Removal check
+1119 3
+Endpoint: RAMCODE_Interface/reg0_syn_64
+1121 0.165000 1 1
+Timing path: u_logic/Ufvhu6_syn_11.clk->RAMCODE_Interface/reg0_syn_64
+u_logic/Ufvhu6_syn_11.clk
+RAMCODE_Interface/reg0_syn_64
+1123 0.165000 3.238000 3.403000 0 1
+cpuresetn_dup_56 RAMCODE_Interface/reg0_syn_64.sr
+
+
+Endpoint: u_logic/Sqqhu6_syn_11
+1161 0.189000 1 1
+Timing path: u_logic/Ufvhu6_syn_11.clk->u_logic/Sqqhu6_syn_11
+u_logic/Ufvhu6_syn_11.clk
+u_logic/Sqqhu6_syn_11
+1163 0.189000 3.222000 3.411000 0 1
+cpuresetn_dup_56 u_logic/Sqqhu6_syn_11.sr
+
+
+Endpoint: u_logic/J4xhu6_syn_694
+1201 0.253000 1 1
+Timing path: u_logic/J4xhu6_syn_674.clk->u_logic/J4xhu6_syn_694
+u_logic/J4xhu6_syn_674.clk
+u_logic/J4xhu6_syn_694
+1203 0.253000 3.238000 3.491000 0 1
+cpuresetn_dup_59 u_logic/J4xhu6_syn_694.sr
+
+
+
+
+clock: clk
+1241 2071262 138 4
+Setup check
+1251 3
+Endpoint: Matrix_Key_Interface/wr_en_reg_reg_syn_5
+1251 -0.134000 1033989 3
+Timing path: u_logic/Xrohu6_syn_27.clk->Matrix_Key_Interface/wr_en_reg_reg_syn_5
+u_logic/Xrohu6_syn_27.clk
+Matrix_Key_Interface/wr_en_reg_reg_syn_5
+1253 -0.134000 21.929000 22.063000 17 17
+u_logic/Ijiax6 u_logic/Glphu6_syn_4534.b[1]
+u_logic/Glphu6_syn_830 u_logic/Glphu6_syn_4193.a[1]
+u_logic/Glphu6_syn_914 u_logic/Glphu6_syn_4229.a[0]
+u_logic/Glphu6_syn_918 u_logic/Glphu6_syn_4389.a[1]
+u_logic/Glphu6_syn_920 u_logic/Glphu6_syn_4764.a[1]
+u_logic/Glphu6_syn_928 u_logic/Glphu6_syn_4406.a[1]
+u_logic/Sbrow6 u_logic/Pzkpw6_reg_syn_599.b[1]
+u_logic/P0biu6 u_logic/Pzkpw6_reg_syn_601.a[0]
+u_logic/Pzkpw6_reg_syn_108 u_logic/Pzkpw6_reg_syn_506.d[1]
+u_logic/Pzkpw6_reg_syn_116 u_logic/P8phu6_syn_549.d[0]
+u_logic/P8phu6_syn_121 u_logic/P8phu6_syn_436.d[0]
+u_logic/P8phu6_syn_123 u_logic/P8phu6_syn_477.d[1]
+u_logic/P8phu6_syn_126 u_logic/Tivhu6_syn_427.d[1]
+u_logic/Tivhu6_syn_105 LCD_Interface/reg1_syn_154.c[0]
+Interconncet/HADDR[16]_syn_2 QN8027_IIC_Interface/write_en_syn_12.b[1]
+QN8027_IIC_Interface/write_en_syn_2 QN8027_IIC_Interface/write_en_syn_14.b[1]
+QN8027_IIC_Interface/write_en_syn_4 Matrix_Key_Interface/wr_en_reg_reg_syn_5.b[1]
+
+Timing path: u_logic/Xrohu6_syn_27.clk->Matrix_Key_Interface/wr_en_reg_reg_syn_5
+u_logic/Xrohu6_syn_27.clk
+Matrix_Key_Interface/wr_en_reg_reg_syn_5
+1321 -0.134000 21.929000 22.063000 17 17
+u_logic/Ijiax6 u_logic/Glphu6_syn_4534.b[1]
+u_logic/Glphu6_syn_830 u_logic/Glphu6_syn_4193.a[0]
+u_logic/Glphu6_syn_914 u_logic/Glphu6_syn_4229.a[0]
+u_logic/Glphu6_syn_918 u_logic/Glphu6_syn_4389.a[1]
+u_logic/Glphu6_syn_920 u_logic/Glphu6_syn_4764.a[1]
+u_logic/Glphu6_syn_928 u_logic/Glphu6_syn_4406.a[1]
+u_logic/Sbrow6 u_logic/Pzkpw6_reg_syn_599.b[1]
+u_logic/P0biu6 u_logic/Pzkpw6_reg_syn_601.a[0]
+u_logic/Pzkpw6_reg_syn_108 u_logic/Pzkpw6_reg_syn_506.d[1]
+u_logic/Pzkpw6_reg_syn_116 u_logic/P8phu6_syn_549.d[0]
+u_logic/P8phu6_syn_121 u_logic/P8phu6_syn_436.d[0]
+u_logic/P8phu6_syn_123 u_logic/P8phu6_syn_477.d[1]
+u_logic/P8phu6_syn_126 u_logic/Tivhu6_syn_427.d[1]
+u_logic/Tivhu6_syn_105 LCD_Interface/reg1_syn_154.c[0]
+Interconncet/HADDR[16]_syn_2 QN8027_IIC_Interface/write_en_syn_12.b[1]
+QN8027_IIC_Interface/write_en_syn_2 QN8027_IIC_Interface/write_en_syn_14.b[1]
+QN8027_IIC_Interface/write_en_syn_4 Matrix_Key_Interface/wr_en_reg_reg_syn_5.b[1]
+
+Timing path: u_logic/Xrohu6_syn_27.clk->Matrix_Key_Interface/wr_en_reg_reg_syn_5
+u_logic/Xrohu6_syn_27.clk
+Matrix_Key_Interface/wr_en_reg_reg_syn_5
+1389 -0.134000 21.929000 22.063000 17 17
+u_logic/Ijiax6 u_logic/Glphu6_syn_4534.b[1]
+u_logic/Glphu6_syn_830 u_logic/Glphu6_syn_4193.a[1]
+u_logic/Glphu6_syn_914 u_logic/Glphu6_syn_4229.a[1]
+u_logic/Glphu6_syn_918 u_logic/Glphu6_syn_4389.a[1]
+u_logic/Glphu6_syn_920 u_logic/Glphu6_syn_4764.a[1]
+u_logic/Glphu6_syn_928 u_logic/Glphu6_syn_4406.a[1]
+u_logic/Sbrow6 u_logic/Pzkpw6_reg_syn_599.b[1]
+u_logic/P0biu6 u_logic/Pzkpw6_reg_syn_601.a[1]
+u_logic/Pzkpw6_reg_syn_108 u_logic/Pzkpw6_reg_syn_506.d[1]
+u_logic/Pzkpw6_reg_syn_116 u_logic/P8phu6_syn_549.d[0]
+u_logic/P8phu6_syn_121 u_logic/P8phu6_syn_436.d[0]
+u_logic/P8phu6_syn_123 u_logic/P8phu6_syn_477.d[1]
+u_logic/P8phu6_syn_126 u_logic/Tivhu6_syn_427.d[1]
+u_logic/Tivhu6_syn_105 LCD_Interface/reg1_syn_154.c[0]
+Interconncet/HADDR[16]_syn_2 QN8027_IIC_Interface/write_en_syn_12.b[1]
+QN8027_IIC_Interface/write_en_syn_2 QN8027_IIC_Interface/write_en_syn_14.b[1]
+QN8027_IIC_Interface/write_en_syn_4 Matrix_Key_Interface/wr_en_reg_reg_syn_5.b[0]
+
+
+Endpoint: Row[3]_syn_4
+1457 9.172000 67 3
+Timing path: u_logic/Vhspw6_reg_syn_88.clk->Row[3]_syn_4
+u_logic/Vhspw6_reg_syn_88.clk
+Row[3]_syn_4
+1459 9.172000 21.796000 12.624000 5 6
+u_logic/Vmipw6_dup_2 u_logic/Glphu6_syn_4238.c[1]
+u_logic/A43pw6 u_logic/Bfjpw6_reg_syn_2956.a[0]
+u_logic/Glphu6_syn_529 u_logic/Glphu6_syn_3698.a[1]
+u_logic/Ra2pw6 u_logic/Bfjpw6_reg_syn_3006.b[1]
+u_logic/Bfjpw6_reg_syn_718 u_logic/Qijpw6_reg_syn_358.a[0]
+Interconncet/HWDATA[3] Row[3]_syn_4.do[0]
+
+Timing path: u_logic/Bfjpw6_reg_syn_3082.clk->Row[3]_syn_4
+u_logic/Bfjpw6_reg_syn_3082.clk
+Row[3]_syn_4
+1505 9.213000 21.796000 12.583000 5 6
+u_logic/Htmpw6_dup_2 u_logic/Glphu6_syn_4238.d[1]
+u_logic/A43pw6 u_logic/Bfjpw6_reg_syn_2956.a[0]
+u_logic/Glphu6_syn_529 u_logic/Glphu6_syn_3698.a[1]
+u_logic/Ra2pw6 u_logic/Bfjpw6_reg_syn_3006.b[1]
+u_logic/Bfjpw6_reg_syn_718 u_logic/Qijpw6_reg_syn_358.a[0]
+Interconncet/HWDATA[3] Row[3]_syn_4.do[0]
+
+Timing path: u_logic/Vmipw6_reg_syn_100.clk->Row[3]_syn_4
+u_logic/Vmipw6_reg_syn_100.clk
+Row[3]_syn_4
+1551 9.410000 21.796000 12.386000 5 6
+u_logic/Vmipw6_dup_3 u_logic/Tgfpw6[15]_syn_32.c[0]
+u_logic/U03pw6 u_logic/Bfjpw6_reg_syn_3088.a[1]
+u_logic/Bfjpw6_reg_syn_714 u_logic/Bfjpw6_reg_syn_3546.b[0]
+u_logic/Bfjpw6_reg_syn_716 u_logic/Bfjpw6_reg_syn_3006.a[1]
+u_logic/Bfjpw6_reg_syn_718 u_logic/Qijpw6_reg_syn_358.a[0]
+Interconncet/HWDATA[3] Row[3]_syn_4.do[0]
+
+
+Endpoint: Row[2]_syn_4
+1597 9.909000 71 3
+Timing path: u_logic/Vhspw6_reg_syn_88.clk->Row[2]_syn_4
+u_logic/Vhspw6_reg_syn_88.clk
+Row[2]_syn_4
+1599 9.909000 21.796000 11.887000 5 6
+u_logic/Vmipw6_dup_2 u_logic/Glphu6_syn_4238.c[1]
+u_logic/A43pw6 u_logic/W2vhu6_syn_438.a[0]
+u_logic/Glphu6_syn_539 u_logic/Mlmpw6_reg_syn_8.a[0]
+u_logic/Bfjpw6_reg_syn_195 u_logic/Bfjpw6_reg_syn_2964.a[1]
+u_logic/Bfjpw6_reg_syn_730 u_logic/Mpohu6_syn_14.a[0]
+Interconncet/HWDATA[2] Row[2]_syn_4.do[0]
+
+Timing path: u_logic/Bfjpw6_reg_syn_3082.clk->Row[2]_syn_4
+u_logic/Bfjpw6_reg_syn_3082.clk
+Row[2]_syn_4
+1645 9.950000 21.796000 11.846000 5 6
+u_logic/Htmpw6_dup_2 u_logic/Glphu6_syn_4238.d[1]
+u_logic/A43pw6 u_logic/W2vhu6_syn_438.a[0]
+u_logic/Glphu6_syn_539 u_logic/Mlmpw6_reg_syn_8.a[0]
+u_logic/Bfjpw6_reg_syn_195 u_logic/Bfjpw6_reg_syn_2964.a[1]
+u_logic/Bfjpw6_reg_syn_730 u_logic/Mpohu6_syn_14.a[0]
+Interconncet/HWDATA[2] Row[2]_syn_4.do[0]
+
+Timing path: u_logic/Bfjpw6_reg_syn_3104.clk->Row[2]_syn_4
+u_logic/Bfjpw6_reg_syn_3104.clk
+Row[2]_syn_4
+1691 10.199000 21.796000 11.597000 4 5
+u_logic/Iixpw6_dup_3 u_logic/Glphu6_syn_4177.b[1]
+u_logic/Qiqow6 cpuresetn_reg_syn_61.c[0]
+u_logic/Bfjpw6_reg_syn_728 u_logic/Bfjpw6_reg_syn_2964.b[1]
+u_logic/Bfjpw6_reg_syn_730 u_logic/Mpohu6_syn_14.a[0]
+Interconncet/HWDATA[2] Row[2]_syn_4.do[0]
+
+
+
+Hold check
+1735 3
+Endpoint: bzmusic_ctrl/next_state[1]_syn_271
+1737 0.611000 22 3
+Timing path: bzmusic_ctrl/next_state[1]_syn_271.clk->bzmusic_ctrl/next_state[1]_syn_271
+bzmusic_ctrl/next_state[1]_syn_271.clk
+bzmusic_ctrl/next_state[1]_syn_271
+1739 0.611000 1.999000 2.610000 1 1
+keyboard/key_reg1[0] bzmusic_ctrl/next_state[1]_syn_271.c[0]
+
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->bzmusic_ctrl/next_state[1]_syn_271
+tune_pwm/clk_pwm_reg_syn_332.clk
+bzmusic_ctrl/next_state[1]_syn_271
+1773 0.699000 1.999000 2.698000 1 1
+keyboard/key_reg0[0] bzmusic_ctrl/next_state[1]_syn_271.b[0]
+
+Timing path: keyboard/reg1_syn_107.clk->bzmusic_ctrl/next_state[1]_syn_271
+keyboard/reg1_syn_107.clk
+bzmusic_ctrl/next_state[1]_syn_271
+1807 1.833000 1.999000 3.832000 3 3
+keyboard/cnt[9] keyboard/reg1_syn_95.b[1]
+keyboard/cnt_b[6]_syn_10 keyboard/reg1_syn_95.d[0]
+keyboard/cnt_b_n bzmusic_ctrl/next_state[1]_syn_271.d[0]
+
+
+Endpoint: keyboard/scan_clk_reg_syn_9
+1845 0.620000 33 3
+Timing path: keyboard/scan_clk_reg_syn_9.clk->keyboard/scan_clk_reg_syn_9
+keyboard/scan_clk_reg_syn_9.clk
+keyboard/scan_clk_reg_syn_9
+1847 0.620000 1.999000 2.619000 1 1
+keyboard/scan_clk keyboard/scan_clk_reg_syn_9.c[1]
+
+Timing path: keyboard/reg0_syn_211.clk->keyboard/scan_clk_reg_syn_9
+keyboard/reg0_syn_211.clk
+keyboard/scan_clk_reg_syn_9
+1881 1.419000 1.999000 3.418000 3 3
+keyboard/cnt0[15] keyboard/reg0_syn_211.d[0]
+keyboard/reg0_syn_63 keyboard/reg0_syn_199.d[0]
+keyboard/cnt0_b_n keyboard/scan_clk_reg_syn_9.d[1]
+
+Timing path: keyboard/reg0_syn_199.clk->keyboard/scan_clk_reg_syn_9
+keyboard/reg0_syn_199.clk
+keyboard/scan_clk_reg_syn_9
+1919 1.438000 1.999000 3.437000 3 3
+keyboard/cnt0[13] keyboard/reg0_syn_211.b[0]
+keyboard/reg0_syn_63 keyboard/reg0_syn_199.d[0]
+keyboard/cnt0_b_n keyboard/scan_clk_reg_syn_9.d[1]
+
+
+Endpoint: tune_pwm/clk_pwm_reg_syn_332
+1957 0.783000 21 3
+Timing path: tune_pwm/clk_pwm_reg_syn_332.clk->tune_pwm/clk_pwm_reg_syn_332
+tune_pwm/clk_pwm_reg_syn_332.clk
+tune_pwm/clk_pwm_reg_syn_332
+1959 0.783000 1.999000 2.782000 1 1
+keyboard/key_reg0[0] tune_pwm/clk_pwm_reg_syn_332.b[0]
+
+Timing path: keyboard/reg1_syn_107.clk->tune_pwm/clk_pwm_reg_syn_332
+keyboard/reg1_syn_107.clk
+tune_pwm/clk_pwm_reg_syn_332
+1993 1.858000 1.999000 3.857000 3 3
+keyboard/cnt[9] keyboard/reg1_syn_95.b[1]
+keyboard/cnt_b[6]_syn_10 keyboard/reg1_syn_95.d[0]
+keyboard/cnt_b_n tune_pwm/clk_pwm_reg_syn_332.d[0]
+
+Timing path: keyboard/reg1_syn_92.clk->tune_pwm/clk_pwm_reg_syn_332
+keyboard/reg1_syn_92.clk
+tune_pwm/clk_pwm_reg_syn_332
+2031 1.888000 1.999000 3.887000 3 3
+keyboard/cnt[10] keyboard/reg1_syn_95.c[1]
+keyboard/cnt_b[6]_syn_10 keyboard/reg1_syn_95.d[0]
+keyboard/cnt_b_n tune_pwm/clk_pwm_reg_syn_332.d[0]
+
+
+
+Recovery check
+2069 1
+Endpoint: Matrix_Key_Interface/wr_en_reg_reg_syn_5
+2071 16.814000 1 1
+Timing path: u_logic/Pzkpw6_reg_syn_512.clk->Matrix_Key_Interface/wr_en_reg_reg_syn_5
+u_logic/Pzkpw6_reg_syn_512.clk
+Matrix_Key_Interface/wr_en_reg_reg_syn_5
+2073 16.814000 21.745000 4.931000 0 1
+cpuresetn_dup_49 Matrix_Key_Interface/wr_en_reg_reg_syn_5.sr
+
+
+
+Removal check
+2109 1
+Endpoint: Matrix_Key_Interface/wr_en_reg_reg_syn_5
+2111 1.389000 1 1
+Timing path: u_logic/Pzkpw6_reg_syn_512.clk->Matrix_Key_Interface/wr_en_reg_reg_syn_5
+u_logic/Pzkpw6_reg_syn_512.clk
+Matrix_Key_Interface/wr_en_reg_reg_syn_5
+2113 1.389000 2.383000 3.772000 0 1
+cpuresetn_dup_49 Matrix_Key_Interface/wr_en_reg_reg_syn_5.sr
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  System_clk (50.0MHz)                          21.902ns      45.658MHz        0.480ns      1381     -214.233ns
+	  clk (25.0MHz)                                 40.134ns      24.917MHz        0.254ns        36       -0.134ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 5 clock net(s): 
+	CLK_gen/clk0_out
+	LED_Interface/light_clk_syn_4
+	QN_REF24MHz_dup_1
+	SWCLK_syn_4
+	keyboard/scan_clk_syn_4
+

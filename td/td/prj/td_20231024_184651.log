@@ -1,0 +1,134 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = E:/Td_5.6.2/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     hp
+   Run Date =   Tue Oct 24 18:46:51 2023
+
+   Run on =     LAPTOP-1GGKBRTU
+============================================================
+RUN-001 : GUI based run...
+RUN-1002 : start command "open_project CortexM0_SOC.al -update"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_LED.v
+HDL-5007 WARNING: identifier 'mode1' is used before its declaration in ../rtl/AHBlite_LED.v(38)
+HDL-5007 WARNING: identifier 'mode2' is used before its declaration in ../rtl/AHBlite_LED.v(38)
+HDL-5007 WARNING: identifier 'mode3' is used before its declaration in ../rtl/AHBlite_LED.v(38)
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Matrix_Key.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../rtl/Block_RAM.v
+HDL-5007 WARNING: converting concatenation to assignment pattern in ../rtl/Block_RAM.v(12)
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : analyze included file E:/fpga_cxcy/final_2/final/td/rtl/global_def.v in ../rtl/CortexM0_SoC.v(1)
+HDL-1007 : back to file '../rtl/CortexM0_SoC.v' in ../rtl/CortexM0_SoC.v(1)
+HDL-1007 : undeclared symbol 'clk', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(71)
+HDL-1007 : undeclared symbol 'row_beep', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(74)
+HDL-1007 : undeclared symbol 'data', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(97)
+HDL-7007 CRITICAL-WARNING: 'data' is already implicitly declared on line 97 in ../rtl/CortexM0_SoC.v(137)
+HDL-7007 CRITICAL-WARNING: 'clk' is already implicitly declared on line 71 in ../rtl/CortexM0_SoC.v(217)
+HDL-1007 : undeclared symbol 'interrupt_UART1', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(1022)
+HDL-1007 : undeclared symbol 'interrupt_UART2', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(1055)
+HDL-1007 : analyze verilog file ../rtl/cortexm0ds_logic.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_QN8027_IIC.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_UART.v
+HDL-1007 : analyze verilog file ../rtl/clkuart_pwm.v
+HDL-1007 : analyze verilog file ../rtl/UART_RX.v
+HDL-1007 : analyze verilog file ../rtl/UART_TX.v
+HDL-1007 : analyze verilog file ../rtl/FIFO.v
+HDL-1007 : analyze verilog file ../rtl/GPIO_IO.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SPI.v
+HDL-1007 : analyze verilog file AHBlite_PAJ_IIC.v
+HDL-1007 : analyze verilog file ../rtl/out/AND.v
+HDL-1007 : analyze verilog file ../rtl/out/BlockROM1.v
+HDL-1007 : analyze verilog file ../rtl/out/BlockROM2.v
+HDL-1007 : analyze verilog file ../rtl/out/BlockROM3.v
+HDL-1007 : analyze verilog file ../rtl/out/addr_cnt.v
+HDL-1007 : analyze verilog file ../rtl/out/beat_cnt.v
+HDL-1007 : analyze verilog file ../rtl/out/beat_decoder.v
+HDL-1007 : analyze verilog file ../rtl/out/bzmusic_ctrl.v
+HDL-1007 : analyze verilog file ../rtl/out/tune_decoder.v
+HDL-1007 : analyze verilog file ../rtl/out/tune_pwm.v
+HDL-1007 : analyze verilog file key_16.v
+HDL-1007 : analyze verilog file ../lcd/AHBlite_LCD.v
+HDL-1007 : analyze verilog file ../lcd/AddrIni.v
+HDL-1007 : analyze verilog file ../lcd/BlockROM16.v
+HDL-1007 : analyze verilog file ../lcd/BlockROM9.v
+HDL-1007 : analyze verilog file ../lcd/LCD_INI.v
+HDL-1007 : analyze verilog file ../lcd/WriteCtrl.v
+HDL-1007 : analyze verilog file AHBlite_GPIO.v
+HDL-1007 : analyze verilog file ../rtl/Keyboard.v
+HDL-1007 : analyze verilog file ../rtl/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../rtl/PLL.v(96)
+HDL-1007 : analyze verilog file clkuart_pwm_uart2.v
+RUN-1001 : Project manager successfully analyzed 39 source files.
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.

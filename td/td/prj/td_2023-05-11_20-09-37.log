@@ -1,0 +1,36 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/TD/bin/td.exe
+   Run by =     ASUS
+   Run Date =   Thu May 11 20:09:37 2023
+
+   Run on =     DESKTOP-BICF4SF
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "download -bit CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit CortexM0_SOC.bit"
+PRG-3000 : BIT2VEC::JtagBitstream: completed! line_num = 1325, frame_num = 1259
+RUN-1003 : finish command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit CortexM0_SOC.bit" in  1.538879s wall, 1.453125s user + 0.093750s system = 1.546875s CPU (100.5%)
+
+RUN-1004 : used memory is 342 MB, reserved memory is 278 MB, peak memory is 342 MB
+RUN-1002 : start command "program -cable 0 -spd 9 -p"
+RUN-1003 : finish command "program -cable 0 -spd 9 -p" in  7.185425s wall, 0.125000s user + 0.015625s system = 0.140625s CPU (2.0%)
+
+RUN-1004 : used memory is 368 MB, reserved memory is 306 MB, peak memory is 368 MB
+RUN-1003 : finish command "download -bit CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0" in  9.229127s wall, 1.703125s user + 0.156250s system = 1.859375s CPU (20.1%)
+
+RUN-1004 : used memory is 218 MB, reserved memory is 151 MB, peak memory is 369 MB
+GUI-1001 : Download success!

@@ -1,0 +1,15 @@
+--cpu Cortex-M0
+".\code_def.o"
+".\main.o"
+".\startup_cmsdk_cm0.o"
+".\retarget.o"
+".\mpuiic.o"
+".\ld3320.o"
+".\pajiic.o"
+".\lcd.o"
+".\sflash.o"
+".\game.o"
+--library_type=microlib --strict --scatter ".\code.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\code.map" -o .\code.axf

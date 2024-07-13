@@ -1,0 +1,132 @@
+standard
+***Report Model: CortexM0_SoC***
+
+IO Statistics
+#IO                        88
+  #input                   21
+  #output                  48
+  #inout                   19
+
+Utilization Statistics
+#lut                     7023   out of  19600   35.83%
+#reg                     1797   out of  19600    9.17%
+#le                      7066
+  #lut only              5269   out of   7066   74.57%
+  #reg only                43   out of   7066    0.61%
+  #lut&reg               1754   out of   7066   24.82%
+#dsp                        3   out of     29   10.34%
+#bram                      37   out of     64   57.81%
+  #bram9k                  37
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       80   out of    188   42.55%
+  #ireg                     0
+  #oreg                    19
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       7   out of     16   43.75%
+
+
+Detailed IO Report
+
+      Name         Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     Col[3]          INPUT        F10        LVCMOS33          N/A          PULLUP      NONE    
+     Col[2]          INPUT        C11        LVCMOS33          N/A          PULLUP      NONE    
+     Col[1]          INPUT        D11        LVCMOS33          N/A          PULLUP      NONE    
+     Col[0]          INPUT        E11        LVCMOS33          N/A          PULLUP      NONE    
+      RSTn           INPUT         A9        LVCMOS33          N/A          PULLUP      NONE    
+      RXD_1          INPUT        F12        LVCMOS33          N/A          PULLUP      NONE    
+     SPI_IRQ         INPUT        H14        LVCMOS33          N/A          PULLUP      NONE    
+    SPI_MISO         INPUT        G14        LVCMOS33          N/A          PULLUP      NONE    
+      SWCLK          INPUT         R2        LVCMOS33          N/A          PULLUP      NONE    
+   System_clk        INPUT         R7        LVCMOS33          N/A          PULLUP      NONE    
+       en1           INPUT        A10        LVCMOS33          N/A          PULLUP      NONE    
+       en2           INPUT        B10        LVCMOS33          N/A          PULLUP      NONE    
+       en3           INPUT        A11        LVCMOS33          N/A          PULLUP      NONE    
+   LCD_BL_CTR       OUTPUT        M11        LVCMOS33           8            NONE       NONE    
+     LCD_CS         OUTPUT        K12        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[15]      OUTPUT        L12        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[14]      OUTPUT        M15        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[13]      OUTPUT        P15        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[12]      OUTPUT        M13        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[11]      OUTPUT        P16        LVCMOS33           8            NONE       NONE    
+  LCD_DATA[10]      OUTPUT        K11        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[9]      OUTPUT        N14        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[8]      OUTPUT        L14        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[7]      OUTPUT        N16        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[6]      OUTPUT        K14        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[5]      OUTPUT        M16        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[4]      OUTPUT        J14        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[3]      OUTPUT        L16        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[2]      OUTPUT        K15        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[1]      OUTPUT        P14        LVCMOS33           8            NONE       NONE    
+   LCD_DATA[0]      OUTPUT        J11        LVCMOS33           8            NONE       NONE    
+     LCD_RD         OUTPUT        H15        LVCMOS33           8            NONE       NONE    
+     LCD_RS         OUTPUT        H13        LVCMOS33           8            NONE       NONE    
+     LCD_RST        OUTPUT        M14        LVCMOS33           8            NONE       NONE    
+     LCD_WR         OUTPUT        L13        LVCMOS33           8            NONE       NONE    
+     LED[7]         OUTPUT         K2        LVCMOS33           8            N/A        NONE    
+     LED[6]         OUTPUT         L7        LVCMOS33           8            N/A        NONE    
+     LED[5]         OUTPUT         M2        LVCMOS33           8            N/A        NONE    
+     LED[4]         OUTPUT         L5        LVCMOS33           8            N/A        NONE    
+     LED[3]         OUTPUT         E8        LVCMOS33           8            N/A        NONE    
+     LED[2]         OUTPUT        T14        LVCMOS33           8            N/A        NONE    
+     LED[1]         OUTPUT        K16        LVCMOS33           8            N/A        NONE    
+     LED[0]         OUTPUT        B12        LVCMOS33           8            N/A        NONE    
+   PAJ_IIC_SCL      OUTPUT         D8        LVCMOS33           8            NONE       OREG    
+   QN_IIC_SCL       OUTPUT         P7        LVCMOS33           8            NONE       OREG    
+   QN_REF24MHz      OUTPUT        J13        LVCMOS33           8            N/A        NONE    
+     Row[3]         OUTPUT        H16        LVCMOS33           8            N/A        OREG    
+     Row[2]         OUTPUT         F9        LVCMOS33           8            NONE       OREG    
+     Row[1]         OUTPUT        C10        LVCMOS33           8            NONE       OREG    
+     Row[0]         OUTPUT        E10        LVCMOS33           8            NONE       OREG    
+   Row_beep[3]      OUTPUT         A8        LVCMOS33           8            N/A        NONE    
+   Row_beep[2]      OUTPUT         E4        LVCMOS33           8            N/A        NONE    
+   Row_beep[1]      OUTPUT         G6        LVCMOS33           8            N/A        NONE    
+   Row_beep[0]      OUTPUT         D9        LVCMOS33           8            NONE       NONE    
+     SPI_CLK        OUTPUT        D14        LVCMOS33           8            NONE       OREG    
+     SPI_CS         OUTPUT        E15        LVCMOS33           8            NONE       OREG    
+    SPI_MOSI        OUTPUT        F14        LVCMOS33           8            NONE       OREG    
+      TXD_1         OUTPUT        D12        LVCMOS33           8            NONE       NONE    
+      beep          OUTPUT        H11        LVCMOS33           8            NONE       NONE    
+    led_test        OUTPUT        B14        LVCMOS33           8            NONE       NONE    
+  led_test_mode     OUTPUT        B15        LVCMOS33           8            NONE       NONE    
+      IO[7]          INOUT        F16        LVCMOS33           8           PULLUP      OREG    
+      IO[6]          INOUT        E16        LVCMOS33           8           PULLUP      OREG    
+      IO[5]          INOUT        E13        LVCMOS33           8           PULLUP      OREG    
+      IO[4]          INOUT        C16        LVCMOS33           8           PULLUP      OREG    
+      IO[3]          INOUT        C15        LVCMOS33           8           PULLUP      OREG    
+      IO[2]          INOUT        B16        LVCMOS33           8           PULLUP      OREG    
+      IO[1]          INOUT        F15        LVCMOS33           8           PULLUP      OREG    
+      IO[0]          INOUT        D16        LVCMOS33           8           PULLUP      OREG    
+   IO_READ[7]        INOUT        A14        LVCMOS33           8            N/A        NONE    
+   IO_READ[6]        INOUT        C13        LVCMOS33           8            N/A        NONE    
+   IO_READ[5]        INOUT        E12        LVCMOS33           8            N/A        NONE    
+   IO_READ[4]        INOUT         J4        LVCMOS33           8            N/A        NONE    
+   IO_READ[3]        INOUT         R3        LVCMOS33           8            N/A        NONE    
+   IO_READ[2]        INOUT        T15        LVCMOS33           8           PULLUP      NONE    
+   IO_READ[1]        INOUT         R5        LVCMOS33           8            N/A        NONE    
+   IO_READ[0]        INOUT         P9        LVCMOS33           8            N/A        NONE    
+   PAJ_IIC_SDA       INOUT         C7        LVCMOS33           8           PULLUP      OREG    
+   QN_IIC_SDA        INOUT         L8        LVCMOS33           8           PULLUP      OREG    
+      SWDIO          INOUT         P2        LVCMOS33           8           PULLUP      NONE    
+
+Report Hierarchy Area:
++----------------------------------------------------------------------+
+|Instance |Module       |le    |lut    |ripple |seq    |bram   |dsp    |
++----------------------------------------------------------------------+
+|top      |CortexM0_SoC |7066  |6860   |163    |1816   |37     |3      |
++----------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       3214  
+    #2         2       2119  
+    #3         3       769   
+    #4         4       501   
+    #5        5-10     889   
+    #6       11-50     515   
+    #7       51-100     17   
+  Average     3.74           

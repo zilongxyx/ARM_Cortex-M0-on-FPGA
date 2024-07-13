@@ -1,0 +1,166 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = F:/td/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     ASUS
+   Run Date =   Sun Oct  1 19:31:52 2023
+
+   Run on =     DESKTOP-BICF4SF
+============================================================
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file clkuart_pwm_uart2.v
+HDL-1007 : analyze verilog file clkuart_pwm_uart2.v
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : analyze included file F:/jichuangsai/final/td/rtl/global_def.v in ../rtl/CortexM0_SoC.v(1)
+HDL-1007 : back to file '../rtl/CortexM0_SoC.v' in ../rtl/CortexM0_SoC.v(1)
+HDL-1007 : undeclared symbol 'clk', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(71)
+HDL-1007 : undeclared symbol 'row_beep', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(74)
+HDL-1007 : undeclared symbol 'data', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(97)
+HDL-7007 CRITICAL-WARNING: 'data' is already implicitly declared on line 97 in ../rtl/CortexM0_SoC.v(137)
+HDL-7007 CRITICAL-WARNING: 'clk' is already implicitly declared on line 71 in ../rtl/CortexM0_SoC.v(217)
+HDL-1007 : undeclared symbol 'HSEL_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(839)
+HDL-1007 : undeclared symbol 'HADDR_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(840)
+HDL-1007 : undeclared symbol 'HPROT_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(841)
+HDL-1007 : undeclared symbol 'HSIZE_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(842)
+HDL-1007 : undeclared symbol 'HTRANS_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(843)
+HDL-1007 : undeclared symbol 'HWDATA_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(844)
+HDL-1007 : undeclared symbol 'HWRITE_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(845)
+HDL-1007 : undeclared symbol 'HRDATA_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(846)
+HDL-1007 : undeclared symbol 'HREADY_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(847)
+HDL-1007 : undeclared symbol 'HREADYOUT_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(848)
+HDL-1007 : undeclared symbol 'HRESP_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(849)
+HDL-1007 : undeclared symbol 'interrupt_UART1', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(993)
+HDL-1007 : undeclared symbol 'interrupt_UART2', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(1019)
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : analyze included file F:/jichuangsai/final/td/rtl/global_def.v in ../rtl/CortexM0_SoC.v(1)
+HDL-1007 : back to file '../rtl/CortexM0_SoC.v' in ../rtl/CortexM0_SoC.v(1)
+HDL-1007 : undeclared symbol 'clk', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(71)
+HDL-1007 : undeclared symbol 'row_beep', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(74)
+HDL-1007 : undeclared symbol 'data', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(97)
+HDL-7007 CRITICAL-WARNING: 'data' is already implicitly declared on line 97 in ../rtl/CortexM0_SoC.v(137)
+HDL-7007 CRITICAL-WARNING: 'clk' is already implicitly declared on line 71 in ../rtl/CortexM0_SoC.v(217)
+HDL-1007 : undeclared symbol 'HSEL_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(710)
+HDL-1007 : undeclared symbol 'HADDR_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(711)
+HDL-1007 : undeclared symbol 'HBURST_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(712)
+HDL-1007 : undeclared symbol 'HMASTLOCK_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(713)
+HDL-1007 : undeclared symbol 'HPROT_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(714)
+HDL-1007 : undeclared symbol 'HSIZE_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(715)
+HDL-1007 : undeclared symbol 'HTRANS_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(716)
+HDL-1007 : undeclared symbol 'HWDATA_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(717)
+HDL-1007 : undeclared symbol 'HWRITE_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(718)
+HDL-1007 : undeclared symbol 'HREADY_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(719)
+HDL-1007 : undeclared symbol 'HREADYOUT_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(720)
+HDL-1007 : undeclared symbol 'HRDATA_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(721)
+HDL-1007 : undeclared symbol 'HRESP_P12', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(722)
+HDL-1007 : undeclared symbol 'interrupt_UART1', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(1008)
+HDL-1007 : undeclared symbol 'interrupt_UART2', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(1034)
+HDL-8007 ERROR: cannot find port 'HSEL_P12' on this module in ../rtl/CortexM0_SoC.v(710)
+HDL-8007 ERROR: cannot find port 'HADDR_P12' on this module in ../rtl/CortexM0_SoC.v(711)
+HDL-8007 ERROR: cannot find port 'HBURST_P12' on this module in ../rtl/CortexM0_SoC.v(712)
+HDL-8007 ERROR: cannot find port 'HMASTLOCK_P12' on this module in ../rtl/CortexM0_SoC.v(713)
+HDL-8007 ERROR: cannot find port 'HPROT_P12' on this module in ../rtl/CortexM0_SoC.v(714)
+HDL-8007 ERROR: cannot find port 'HSIZE_P12' on this module in ../rtl/CortexM0_SoC.v(715)
+HDL-8007 ERROR: cannot find port 'HTRANS_P12' on this module in ../rtl/CortexM0_SoC.v(716)
+HDL-8007 ERROR: cannot find port 'HWDATA_P12' on this module in ../rtl/CortexM0_SoC.v(717)
+HDL-8007 ERROR: cannot find port 'HWRITE_P12' on this module in ../rtl/CortexM0_SoC.v(718)
+HDL-8007 ERROR: cannot find port 'HREADY_P12' on this module in ../rtl/CortexM0_SoC.v(719)
+HDL-8007 ERROR: cannot find port 'HREADYOUT_P12' on this module in ../rtl/CortexM0_SoC.v(720)
+HDL-8007 ERROR: cannot find port 'HRDATA_P12' on this module in ../rtl/CortexM0_SoC.v(721)
+HDL-8007 ERROR: cannot find port 'HRESP_P12' on this module in ../rtl/CortexM0_SoC.v(722)
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Decoder.v
+HDL-8007 ERROR: cannot find port 'HSEL_P12' on this module in ../rtl/CortexM0_SoC.v(710)
+HDL-8007 ERROR: cannot find port 'HADDR_P12' on this module in ../rtl/CortexM0_SoC.v(711)
+HDL-8007 ERROR: cannot find port 'HBURST_P12' on this module in ../rtl/CortexM0_SoC.v(712)
+HDL-8007 ERROR: cannot find port 'HMASTLOCK_P12' on this module in ../rtl/CortexM0_SoC.v(713)
+HDL-8007 ERROR: cannot find port 'HPROT_P12' on this module in ../rtl/CortexM0_SoC.v(714)
+HDL-8007 ERROR: cannot find port 'HSIZE_P12' on this module in ../rtl/CortexM0_SoC.v(715)
+HDL-8007 ERROR: cannot find port 'HTRANS_P12' on this module in ../rtl/CortexM0_SoC.v(716)
+HDL-8007 ERROR: cannot find port 'HWDATA_P12' on this module in ../rtl/CortexM0_SoC.v(717)
+HDL-8007 ERROR: cannot find port 'HWRITE_P12' on this module in ../rtl/CortexM0_SoC.v(718)
+HDL-8007 ERROR: cannot find port 'HREADY_P12' on this module in ../rtl/CortexM0_SoC.v(719)
+HDL-8007 ERROR: cannot find port 'HREADYOUT_P12' on this module in ../rtl/CortexM0_SoC.v(720)
+HDL-8007 ERROR: cannot find port 'HRDATA_P12' on this module in ../rtl/CortexM0_SoC.v(721)
+HDL-8007 ERROR: cannot find port 'HRESP_P12' on this module in ../rtl/CortexM0_SoC.v(722)
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SlaveMUX.v
+HDL-8007 ERROR: cannot find port 'HSEL_P12' on this module in ../rtl/CortexM0_SoC.v(710)
+HDL-8007 ERROR: cannot find port 'HADDR_P12' on this module in ../rtl/CortexM0_SoC.v(711)
+HDL-8007 ERROR: cannot find port 'HBURST_P12' on this module in ../rtl/CortexM0_SoC.v(712)
+HDL-8007 ERROR: cannot find port 'HMASTLOCK_P12' on this module in ../rtl/CortexM0_SoC.v(713)
+HDL-8007 ERROR: cannot find port 'HPROT_P12' on this module in ../rtl/CortexM0_SoC.v(714)
+HDL-8007 ERROR: cannot find port 'HSIZE_P12' on this module in ../rtl/CortexM0_SoC.v(715)
+HDL-8007 ERROR: cannot find port 'HTRANS_P12' on this module in ../rtl/CortexM0_SoC.v(716)
+HDL-8007 ERROR: cannot find port 'HWDATA_P12' on this module in ../rtl/CortexM0_SoC.v(717)
+HDL-8007 ERROR: cannot find port 'HWRITE_P12' on this module in ../rtl/CortexM0_SoC.v(718)
+HDL-8007 ERROR: cannot find port 'HREADY_P12' on this module in ../rtl/CortexM0_SoC.v(719)
+HDL-8007 ERROR: cannot find port 'HREADYOUT_P12' on this module in ../rtl/CortexM0_SoC.v(720)
+HDL-8007 ERROR: cannot find port 'HRDATA_P12' on this module in ../rtl/CortexM0_SoC.v(721)
+HDL-8007 ERROR: cannot find port 'HRESP_P12' on this module in ../rtl/CortexM0_SoC.v(722)
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Interconnect.v
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-6001 WARNING: Failed to reset phy_1: some files can't be removed in F:/jichuangsai/final/td/prj/CortexM0_SOC_Runs/phy_1
+RUN-6001 WARNING: Failed to reset syn_1: some files can't be removed in F:/jichuangsai/final/td/prj/CortexM0_SOC_Runs/syn_1
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.

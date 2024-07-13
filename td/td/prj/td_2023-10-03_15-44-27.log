@@ -1,0 +1,65 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = F:/td/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     ASUS
+   Run Date =   Tue Oct  3 15:44:27 2023
+
+   Run on =     DESKTOP-BICF4SF
+============================================================
+RUN-1002 : start command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 12 -bit CortexM0_SOC_Runs/phy_1/CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 9 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 9 -p" in  7.258941s wall, 0.125000s user + 0.062500s system = 0.187500s CPU (2.6%)
+
+RUN-1004 : used memory is 193 MB, reserved memory is 162 MB, peak memory is 223 MB
+RUN-1003 : finish command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0" in  7.660286s wall, 0.265625s user + 0.109375s system = 0.375000s CPU (4.9%)
+
+RUN-1004 : used memory is 193 MB, reserved memory is 162 MB, peak memory is 223 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 12 -bit CortexM0_SOC_Runs/phy_1/CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 9 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 9 -p" in  7.479225s wall, 0.078125s user + 0.000000s system = 0.078125s CPU (1.0%)
+
+RUN-1004 : used memory is 192 MB, reserved memory is 162 MB, peak memory is 223 MB
+RUN-1003 : finish command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0" in  7.808616s wall, 0.218750s user + 0.000000s system = 0.218750s CPU (2.8%)
+
+RUN-1004 : used memory is 192 MB, reserved memory is 162 MB, peak memory is 223 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 12 -bit CortexM0_SOC_Runs/phy_1/CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 9 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 9 -p" in  7.347979s wall, 0.046875s user + 0.078125s system = 0.125000s CPU (1.7%)
+
+RUN-1004 : used memory is 109 MB, reserved memory is 162 MB, peak memory is 223 MB
+RUN-1003 : finish command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0" in  7.693506s wall, 0.156250s user + 0.125000s system = 0.281250s CPU (3.7%)
+
+RUN-1004 : used memory is 109 MB, reserved memory is 162 MB, peak memory is 223 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 12 -bit CortexM0_SOC_Runs/phy_1/CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 9 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 9 -p" in  7.203714s wall, 0.187500s user + 0.093750s system = 0.281250s CPU (3.9%)
+
+RUN-1004 : used memory is 126 MB, reserved memory is 170 MB, peak memory is 223 MB
+RUN-1003 : finish command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0" in  7.652206s wall, 0.328125s user + 0.125000s system = 0.453125s CPU (5.9%)
+
+RUN-1004 : used memory is 126 MB, reserved memory is 170 MB, peak memory is 223 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 12 -bit CortexM0_SOC_Runs/phy_1/CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 9 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 9 -p" in  7.246938s wall, 0.156250s user + 0.125000s system = 0.281250s CPU (3.9%)
+
+RUN-1004 : used memory is 128 MB, reserved memory is 172 MB, peak memory is 223 MB
+RUN-1003 : finish command "download -bit CortexM0_SOC_Runs\phy_1\CortexM0_SOC.bit -mode jtag -spd 9 -sec 64 -cable 0" in  7.639831s wall, 0.390625s user + 0.187500s system = 0.578125s CPU (7.6%)
+
+RUN-1004 : used memory is 128 MB, reserved memory is 172 MB, peak memory is 223 MB
+GUI-1001 : Downloading succeeded!

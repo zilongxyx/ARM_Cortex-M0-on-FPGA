@@ -1,0 +1,559 @@
+eagle_s20
+12 22 631 6570 569255822 12 5
+-2.068 -0.706 CortexM0_SoC eagle_s20 BG256 Detail 9 2
+clock: System_clk
+12 567876484 6390 4
+Setup check
+22 3
+Endpoint: u_logic/Isjpw6_reg
+22 -2.068000 647556 3
+Timing path: u_logic/Vhspw6_reg|u_logic/Htmpw6_reg.clk->u_logic/Isjpw6_reg
+u_logic/Vhspw6_reg|u_logic/Htmpw6_reg.clk
+u_logic/Isjpw6_reg
+24 -2.068000 23.397000 25.465000 14 17
+u_logic/Htmpw6 u_logic/_al_u534|u_logic/Rhibx6_reg.d[1]
+u_logic/_al_u534_o u_logic/_al_u513|u_logic/Fx1qw6_reg.e[0]
+u_logic/_al_u1316_o u_logic/_al_u553|u_logic/_al_u1473.a[0]
+u_logic/_al_u1473_o u_logic/_al_u1728|u_logic/_al_u1945.a[0]
+u_logic/S2epw6 u_logic/add3_add4/u7_al_u5272.a[0]
+u_logic/add3_add4/c11 u_logic/add3_add4/u11_al_u5273.fci
+u_logic/add3_add4/c15 u_logic/add3_add4/u15_al_u5274.fci
+u_logic/add3_add4/c19 u_logic/add3_add4/u19_al_u5275.fci
+u_logic/Nxkbx6[22] u_logic/_al_u2800|GPIO_Interface/reg1_b0.a[1]
+u_logic/_al_u2800_o u_logic/_al_u3954|u_logic/_al_u3722.b[0]
+u_logic/Snihu6 u_logic/_al_u3723|u_logic/_al_u3968.b[1]
+u_logic/_al_u3723_o u_logic/_al_u4049|u_logic/_al_u3731.a[0]
+u_logic/_al_u3731_o u_logic/Hsdax6_reg|u_logic/F7eax6_reg.a[0]
+u_logic/_al_u3745_o u_logic/_al_u3808|u_logic/Hi9bx6_reg.a[1]
+u_logic/_al_u3808_o u_logic/Cq3qw6_reg|u_logic/Wc2qw6_reg.c[1]
+u_logic/_al_u4421_o u_logic/_al_u4423|u_logic/L2bax6_reg.b[1]
+u_logic/Kt4iu6 u_logic/Isjpw6_reg.ce
+
+Timing path: u_logic/Vhspw6_reg|u_logic/Htmpw6_reg.clk->u_logic/Isjpw6_reg
+u_logic/Vhspw6_reg|u_logic/Htmpw6_reg.clk
+u_logic/Isjpw6_reg
+93 -2.041000 23.397000 25.438000 14 15
+u_logic/Htmpw6 u_logic/_al_u534|u_logic/Rhibx6_reg.d[1]
+u_logic/_al_u534_o u_logic/_al_u513|u_logic/Fx1qw6_reg.e[0]
+u_logic/_al_u1316_o u_logic/_al_u553|u_logic/_al_u1473.a[0]
+u_logic/_al_u1473_o u_logic/_al_u1728|u_logic/_al_u1945.a[0]
+u_logic/S2epw6 u_logic/add3_add4/u7_al_u5272.a[0]
+u_logic/add3_add4/c11 u_logic/add3_add4/u11_al_u5273.fci
+u_logic/Nxkbx6[14] u_logic/_al_u2835|u_logic/_al_u2845.a[0]
+u_logic/Vy8pw6 u_logic/Facax6_reg|u_logic/Lg9bx6_reg.b[0]
+u_logic/Gdihu6 u_logic/Facax6_reg|u_logic/Lg9bx6_reg.a[1]
+u_logic/_al_u3771_o u_logic/D1aax6_reg|u_logic/Biaax6_reg.a[0]
+u_logic/_al_u3776_o u_logic/_al_u3455|u_logic/Xaeax6_reg.a[0]
+u_logic/_al_u3807_o u_logic/_al_u3808|u_logic/Hi9bx6_reg.d[1]
+u_logic/_al_u3808_o u_logic/Cq3qw6_reg|u_logic/Wc2qw6_reg.c[1]
+u_logic/_al_u4421_o u_logic/_al_u4423|u_logic/L2bax6_reg.b[1]
+u_logic/Kt4iu6 u_logic/Isjpw6_reg.ce
+
+Timing path: u_logic/Vhspw6_reg|u_logic/Htmpw6_reg.clk->u_logic/Isjpw6_reg
+u_logic/Vhspw6_reg|u_logic/Htmpw6_reg.clk
+u_logic/Isjpw6_reg
+158 -1.922000 23.397000 25.319000 14 15
+u_logic/Htmpw6 u_logic/_al_u534|u_logic/Rhibx6_reg.d[1]
+u_logic/_al_u534_o u_logic/_al_u513|u_logic/Fx1qw6_reg.e[0]
+u_logic/_al_u1316_o u_logic/_al_u553|u_logic/_al_u1473.a[0]
+u_logic/_al_u1473_o u_logic/_al_u1728|u_logic/_al_u1945.a[0]
+u_logic/S2epw6 u_logic/add3_add4/u7_al_u5272.a[0]
+u_logic/add3_add4/c11 u_logic/add3_add4/u11_al_u5273.fci
+u_logic/Nxkbx6[13] u_logic/_al_u5217|u_logic/_al_u2751.a[0]
+u_logic/_al_u2751_o u_logic/_al_u3786|u_logic/R1eax6_reg.b[0]
+u_logic/Ybihu6 u_logic/Facax6_reg|u_logic/Lg9bx6_reg.b[1]
+u_logic/_al_u3771_o u_logic/D1aax6_reg|u_logic/Biaax6_reg.a[0]
+u_logic/_al_u3776_o u_logic/_al_u3455|u_logic/Xaeax6_reg.a[0]
+u_logic/_al_u3807_o u_logic/_al_u3808|u_logic/Hi9bx6_reg.d[1]
+u_logic/_al_u3808_o u_logic/Cq3qw6_reg|u_logic/Wc2qw6_reg.c[1]
+u_logic/_al_u4421_o u_logic/_al_u4423|u_logic/L2bax6_reg.b[1]
+u_logic/Kt4iu6 u_logic/Isjpw6_reg.ce
+
+
+Endpoint: u_logic/_al_u1557|u_logic/Rnvax6_reg
+223 -1.991000 303617 3
+Timing path: u_logic/Fe2bx6_reg.clk->u_logic/_al_u1557|u_logic/Rnvax6_reg
+u_logic/Fe2bx6_reg.clk
+u_logic/_al_u1557|u_logic/Rnvax6_reg
+225 -1.991000 23.478000 25.469000 15 16
+u_logic/Fe2bx6 u_logic/_al_u4572|u_logic/_al_u4504.d[0]
+u_logic/_al_u4504_o u_logic/_al_u4500|u_logic/_al_u4507.b[0]
+u_logic/_al_u4507_o u_logic/_al_u4512|u_logic/_al_u4509.d[0]
+u_logic/_al_u4509_o u_logic/_al_u4546|u_logic/_al_u4511.a[0]
+u_logic/Yzrow6_lutinv u_logic/_al_u4524.a[1]
+u_logic/_al_u4524_o u_logic/_al_u4553.b[1]
+u_logic/_al_u4553_o u_logic/_al_u4623|u_logic/_al_u4628.d[1]
+u_logic/_al_u4623_o u_logic/_al_u4670|u_logic/_al_u4671.e[0]
+u_logic/_al_u4671_o u_logic/_al_u4682|u_logic/_al_u4685.a[1]
+u_logic/_al_u4682_o u_logic/_al_u2536|u_logic/_al_u4714.a[0]
+u_logic/_al_u4714_o u_logic/_al_u4897.a[1]
+u_logic/_al_u4897_o u_logic/_al_u4907.a[1]
+u_logic/_al_u4907_o u_logic/_al_u4915.a[0]
+u_logic/_al_u4915_o u_logic/_al_u4920.a[1]
+u_logic/_al_u4920_o u_logic/Vvxax6_reg|u_logic/C87bx6_reg.b[1]
+u_logic/Vx9iu6 u_logic/_al_u1557|u_logic/Rnvax6_reg.mi[0]
+
+Timing path: u_logic/Fe2bx6_reg.clk->u_logic/_al_u1557|u_logic/Rnvax6_reg
+u_logic/Fe2bx6_reg.clk
+u_logic/_al_u1557|u_logic/Rnvax6_reg
+292 -1.991000 23.478000 25.469000 15 16
+u_logic/Fe2bx6 u_logic/_al_u4572|u_logic/_al_u4504.d[0]
+u_logic/_al_u4504_o u_logic/_al_u4500|u_logic/_al_u4507.b[0]
+u_logic/_al_u4507_o u_logic/_al_u4512|u_logic/_al_u4509.d[0]
+u_logic/_al_u4509_o u_logic/_al_u4546|u_logic/_al_u4511.a[0]
+u_logic/Yzrow6_lutinv u_logic/_al_u4524.a[1]
+u_logic/_al_u4524_o u_logic/_al_u4553.b[1]
+u_logic/_al_u4553_o u_logic/_al_u4623|u_logic/_al_u4628.d[1]
+u_logic/_al_u4623_o u_logic/_al_u4670|u_logic/_al_u4671.e[0]
+u_logic/_al_u4671_o u_logic/_al_u4682|u_logic/_al_u4685.a[1]
+u_logic/_al_u4682_o u_logic/_al_u2536|u_logic/_al_u4714.a[0]
+u_logic/_al_u4714_o u_logic/_al_u4897.a[1]
+u_logic/_al_u4897_o u_logic/_al_u4907.a[0]
+u_logic/_al_u4907_o u_logic/_al_u4915.a[0]
+u_logic/_al_u4915_o u_logic/_al_u4920.a[1]
+u_logic/_al_u4920_o u_logic/Vvxax6_reg|u_logic/C87bx6_reg.b[1]
+u_logic/Vx9iu6 u_logic/_al_u1557|u_logic/Rnvax6_reg.mi[0]
+
+Timing path: u_logic/Fe2bx6_reg.clk->u_logic/_al_u1557|u_logic/Rnvax6_reg
+u_logic/Fe2bx6_reg.clk
+u_logic/_al_u1557|u_logic/Rnvax6_reg
+359 -1.991000 23.478000 25.469000 15 16
+u_logic/Fe2bx6 u_logic/_al_u4572|u_logic/_al_u4504.d[0]
+u_logic/_al_u4504_o u_logic/_al_u4500|u_logic/_al_u4507.b[0]
+u_logic/_al_u4507_o u_logic/_al_u4512|u_logic/_al_u4509.d[0]
+u_logic/_al_u4509_o u_logic/_al_u4546|u_logic/_al_u4511.a[0]
+u_logic/Yzrow6_lutinv u_logic/_al_u4524.a[1]
+u_logic/_al_u4524_o u_logic/_al_u4553.b[1]
+u_logic/_al_u4553_o u_logic/_al_u4623|u_logic/_al_u4628.d[1]
+u_logic/_al_u4623_o u_logic/_al_u4670|u_logic/_al_u4671.e[0]
+u_logic/_al_u4671_o u_logic/_al_u4682|u_logic/_al_u4685.a[1]
+u_logic/_al_u4682_o u_logic/_al_u2536|u_logic/_al_u4714.a[0]
+u_logic/_al_u4714_o u_logic/_al_u4897.a[1]
+u_logic/_al_u4897_o u_logic/_al_u4907.a[1]
+u_logic/_al_u4907_o u_logic/_al_u4915.a[0]
+u_logic/_al_u4915_o u_logic/_al_u4920.a[0]
+u_logic/_al_u4920_o u_logic/Vvxax6_reg|u_logic/C87bx6_reg.b[1]
+u_logic/Vx9iu6 u_logic/_al_u1557|u_logic/Rnvax6_reg.mi[0]
+
+
+Endpoint: u_logic/Kfoax6_reg
+426 -1.991000 303617 3
+Timing path: u_logic/Fe2bx6_reg.clk->u_logic/Kfoax6_reg
+u_logic/Fe2bx6_reg.clk
+u_logic/Kfoax6_reg
+428 -1.991000 23.478000 25.469000 15 16
+u_logic/Fe2bx6 u_logic/_al_u4572|u_logic/_al_u4504.d[0]
+u_logic/_al_u4504_o u_logic/_al_u4500|u_logic/_al_u4507.b[0]
+u_logic/_al_u4507_o u_logic/_al_u4512|u_logic/_al_u4509.d[0]
+u_logic/_al_u4509_o u_logic/_al_u4546|u_logic/_al_u4511.a[0]
+u_logic/Yzrow6_lutinv u_logic/_al_u4524.a[1]
+u_logic/_al_u4524_o u_logic/_al_u4553.b[1]
+u_logic/_al_u4553_o u_logic/_al_u4623|u_logic/_al_u4628.d[1]
+u_logic/_al_u4623_o u_logic/_al_u4670|u_logic/_al_u4671.e[0]
+u_logic/_al_u4671_o u_logic/_al_u4682|u_logic/_al_u4685.a[1]
+u_logic/_al_u4682_o u_logic/_al_u2536|u_logic/_al_u4714.a[0]
+u_logic/_al_u4714_o u_logic/_al_u4897.a[1]
+u_logic/_al_u4897_o u_logic/_al_u4907.a[1]
+u_logic/_al_u4907_o u_logic/_al_u4915.a[0]
+u_logic/_al_u4915_o u_logic/_al_u4920.a[1]
+u_logic/_al_u4920_o u_logic/Vvxax6_reg|u_logic/C87bx6_reg.b[1]
+u_logic/Vx9iu6 u_logic/Kfoax6_reg.mi[0]
+
+Timing path: u_logic/Fe2bx6_reg.clk->u_logic/Kfoax6_reg
+u_logic/Fe2bx6_reg.clk
+u_logic/Kfoax6_reg
+495 -1.991000 23.478000 25.469000 15 16
+u_logic/Fe2bx6 u_logic/_al_u4572|u_logic/_al_u4504.d[0]
+u_logic/_al_u4504_o u_logic/_al_u4500|u_logic/_al_u4507.b[0]
+u_logic/_al_u4507_o u_logic/_al_u4512|u_logic/_al_u4509.d[0]
+u_logic/_al_u4509_o u_logic/_al_u4546|u_logic/_al_u4511.a[0]
+u_logic/Yzrow6_lutinv u_logic/_al_u4524.a[1]
+u_logic/_al_u4524_o u_logic/_al_u4553.b[1]
+u_logic/_al_u4553_o u_logic/_al_u4623|u_logic/_al_u4628.d[1]
+u_logic/_al_u4623_o u_logic/_al_u4670|u_logic/_al_u4671.e[0]
+u_logic/_al_u4671_o u_logic/_al_u4682|u_logic/_al_u4685.a[1]
+u_logic/_al_u4682_o u_logic/_al_u2536|u_logic/_al_u4714.a[0]
+u_logic/_al_u4714_o u_logic/_al_u4897.a[1]
+u_logic/_al_u4897_o u_logic/_al_u4907.a[0]
+u_logic/_al_u4907_o u_logic/_al_u4915.a[0]
+u_logic/_al_u4915_o u_logic/_al_u4920.a[1]
+u_logic/_al_u4920_o u_logic/Vvxax6_reg|u_logic/C87bx6_reg.b[1]
+u_logic/Vx9iu6 u_logic/Kfoax6_reg.mi[0]
+
+Timing path: u_logic/Fe2bx6_reg.clk->u_logic/Kfoax6_reg
+u_logic/Fe2bx6_reg.clk
+u_logic/Kfoax6_reg
+562 -1.991000 23.478000 25.469000 15 16
+u_logic/Fe2bx6 u_logic/_al_u4572|u_logic/_al_u4504.d[0]
+u_logic/_al_u4504_o u_logic/_al_u4500|u_logic/_al_u4507.b[0]
+u_logic/_al_u4507_o u_logic/_al_u4512|u_logic/_al_u4509.d[0]
+u_logic/_al_u4509_o u_logic/_al_u4546|u_logic/_al_u4511.a[0]
+u_logic/Yzrow6_lutinv u_logic/_al_u4524.a[1]
+u_logic/_al_u4524_o u_logic/_al_u4553.b[1]
+u_logic/_al_u4553_o u_logic/_al_u4623|u_logic/_al_u4628.d[1]
+u_logic/_al_u4623_o u_logic/_al_u4670|u_logic/_al_u4671.e[0]
+u_logic/_al_u4671_o u_logic/_al_u4682|u_logic/_al_u4685.a[1]
+u_logic/_al_u4682_o u_logic/_al_u2536|u_logic/_al_u4714.a[0]
+u_logic/_al_u4714_o u_logic/_al_u4897.a[1]
+u_logic/_al_u4897_o u_logic/_al_u4907.a[1]
+u_logic/_al_u4907_o u_logic/_al_u4915.a[0]
+u_logic/_al_u4915_o u_logic/_al_u4920.a[0]
+u_logic/_al_u4920_o u_logic/Vvxax6_reg|u_logic/C87bx6_reg.b[1]
+u_logic/Vx9iu6 u_logic/Kfoax6_reg.mi[0]
+
+
+
+Hold check
+629 3
+Endpoint: bzmusic_ctrl/reg0_b0
+631 -0.706000 3 3
+Timing path: keyboard/reg3_b0|keyboard/reg6_b0.clk->bzmusic_ctrl/reg0_b0
+keyboard/reg3_b0|keyboard/reg6_b0.clk
+bzmusic_ctrl/reg0_b0
+633 -0.706000 3.796000 3.090000 1 1
+keyboard/key_reg1[0] bzmusic_ctrl/reg0_b0.d[1]
+
+Timing path: keyboard/reg3_b0|keyboard/reg6_b0.clk->bzmusic_ctrl/reg0_b0
+keyboard/reg3_b0|keyboard/reg6_b0.clk
+bzmusic_ctrl/reg0_b0
+668 -0.706000 3.796000 3.090000 1 1
+keyboard/key_reg1[0] bzmusic_ctrl/reg0_b0.d[0]
+
+Timing path: keyboard/reg3_b0|keyboard/reg6_b0.clk->bzmusic_ctrl/reg0_b0
+keyboard/reg3_b0|keyboard/reg6_b0.clk
+bzmusic_ctrl/reg0_b0
+703 -0.568000 3.796000 3.228000 1 1
+keyboard/key_reg0[0] bzmusic_ctrl/reg0_b0.mi[0]
+
+
+Endpoint: _al_u578|bzmusic_ctrl/addr_en_reg
+738 -0.075000 3 3
+Timing path: keyboard/reg3_b0|keyboard/reg6_b0.clk->_al_u578|bzmusic_ctrl/addr_en_reg
+keyboard/reg3_b0|keyboard/reg6_b0.clk
+_al_u578|bzmusic_ctrl/addr_en_reg
+740 -0.075000 3.796000 3.721000 1 2
+keyboard/key_reg1[0] bzmusic_ctrl/reg0_b0.d[1]
+bzmusic_ctrl/sel0_b0_var_o _al_u578|bzmusic_ctrl/addr_en_reg.mi[0]
+
+Timing path: keyboard/reg3_b0|keyboard/reg6_b0.clk->_al_u578|bzmusic_ctrl/addr_en_reg
+keyboard/reg3_b0|keyboard/reg6_b0.clk
+_al_u578|bzmusic_ctrl/addr_en_reg
+777 -0.075000 3.796000 3.721000 1 2
+keyboard/key_reg1[0] bzmusic_ctrl/reg0_b0.d[0]
+bzmusic_ctrl/sel0_b0_var_o _al_u578|bzmusic_ctrl/addr_en_reg.mi[0]
+
+Timing path: keyboard/reg3_b0|keyboard/reg6_b0.clk->_al_u578|bzmusic_ctrl/addr_en_reg
+keyboard/reg3_b0|keyboard/reg6_b0.clk
+_al_u578|bzmusic_ctrl/addr_en_reg
+814 0.063000 3.796000 3.859000 1 2
+keyboard/key_reg0[0] bzmusic_ctrl/reg0_b0.mi[0]
+bzmusic_ctrl/sel0_b0_var_o _al_u578|bzmusic_ctrl/addr_en_reg.mi[0]
+
+
+Endpoint: UART1_TX/FIFO/al_ram_mem_r1_c0_l
+851 0.187000 112 3
+Timing path: _al_u680|UART1_TX/FIFO/reg1_b0.clk->UART1_TX/FIFO/al_ram_mem_r1_c0_l
+_al_u680|UART1_TX/FIFO/reg1_b0.clk
+UART1_TX/FIFO/al_ram_mem_r1_c0_l
+853 0.187000 3.652000 3.839000 1 1
+UART1_TX/FIFO/wp[0] UART1_TX/FIFO/al_ram_mem_r1_c0_l.a[0]
+
+Timing path: u_logic/_al_u1592|UART_Interface/wr_en_reg_reg.clk->UART1_TX/FIFO/al_ram_mem_r1_c0_l
+u_logic/_al_u1592|UART_Interface/wr_en_reg_reg.clk
+UART1_TX/FIFO/al_ram_mem_r1_c0_l
+890 3.230000 3.652000 6.882000 2 2
+UART_Interface/wr_en_reg _al_u379|_al_u382.c[0]
+UART1_TX_data[0] UART1_TX/FIFO/al_ram_mem_r1_c0_l.a[1]
+
+Timing path: u_logic/Vhspw6_reg_hfnopt2_10|u_logic/Htmpw6_reg_hfnopt2_9.clk->UART1_TX/FIFO/al_ram_mem_r1_c0_l
+u_logic/Vhspw6_reg_hfnopt2_10|u_logic/Htmpw6_reg_hfnopt2_9.clk
+UART1_TX/FIFO/al_ram_mem_r1_c0_l
+929 4.065000 3.652000 7.717000 4 4
+u_logic/Htmpw6_hfnopt2_9 u_logic/_al_u1461|u_logic/S5kpw6_reg.d[0]
+u_logic/_al_u425_o u_logic/Zszax6_reg.c[1]
+HWDATA[0] _al_u379|_al_u382.d[0]
+UART1_TX_data[0] UART1_TX/FIFO/al_ram_mem_r1_c0_l.a[1]
+
+
+
+Recovery check
+972 3
+Endpoint: u_logic/Equpw6_reg
+974 16.049000 1 1
+Timing path: u_logic/_al_u4088|cpuresetn_reg_hfnopt2_9.clk->u_logic/Equpw6_reg
+u_logic/_al_u4088|cpuresetn_reg_hfnopt2_9.clk
+u_logic/Equpw6_reg
+976 16.049000 23.213000 7.164000 0 1
+cpuresetn_hfnopt2_9 u_logic/Equpw6_reg.sr
+
+
+Endpoint: u_logic/_al_u4579|u_logic/E90bx6_reg
+1013 16.347000 1 1
+Timing path: u_logic/_al_u3555|cpuresetn_reg.clk->u_logic/_al_u4579|u_logic/E90bx6_reg
+u_logic/_al_u3555|cpuresetn_reg.clk
+u_logic/_al_u4579|u_logic/E90bx6_reg
+1015 16.347000 23.213000 6.866000 0 1
+cpuresetn u_logic/_al_u4579|u_logic/E90bx6_reg.sr
+
+
+Endpoint: RAMDATA_Interface/reg0_b1|RAMDATA_Interface/reg0_b0
+1052 16.501000 1 1
+Timing path: u_logic/_al_u4088|cpuresetn_reg_hfnopt2_9.clk->RAMDATA_Interface/reg0_b1|RAMDATA_Interface/reg0_b0
+u_logic/_al_u4088|cpuresetn_reg_hfnopt2_9.clk
+RAMDATA_Interface/reg0_b1|RAMDATA_Interface/reg0_b0
+1054 16.501000 23.213000 6.712000 0 1
+cpuresetn_hfnopt2_9 RAMDATA_Interface/reg0_b1|RAMDATA_Interface/reg0_b0.sr
+
+
+
+Removal check
+1091 3
+Endpoint: u_logic/_al_u4881|u_logic/Wu3bx6_reg
+1093 0.140000 1 1
+Timing path: u_logic/_al_u3319|cpuresetn_reg_hfnopt2_16.clk->u_logic/_al_u4881|u_logic/Wu3bx6_reg
+u_logic/_al_u3319|cpuresetn_reg_hfnopt2_16.clk
+u_logic/_al_u4881|u_logic/Wu3bx6_reg
+1095 0.140000 3.818000 3.958000 0 1
+cpuresetn_hfnopt2_16 u_logic/_al_u4881|u_logic/Wu3bx6_reg.sr
+
+
+Endpoint: UART1_TX/reg0_b0|UART1_TX/reg0_b1
+1132 0.140000 1 1
+Timing path: _al_u596|cpuresetn_reg_hfnopt2_6.clk->UART1_TX/reg0_b0|UART1_TX/reg0_b1
+_al_u596|cpuresetn_reg_hfnopt2_6.clk
+UART1_TX/reg0_b0|UART1_TX/reg0_b1
+1134 0.140000 3.818000 3.958000 0 1
+cpuresetn_hfnopt2_6 UART1_TX/reg0_b0|UART1_TX/reg0_b1.sr
+
+
+Endpoint: u_logic/_al_u3484|GPIO_Interface/reg1_b1
+1171 0.163000 1 1
+Timing path: u_logic/_al_u2831|cpuresetn_reg_hfnopt2_3.clk->u_logic/_al_u3484|GPIO_Interface/reg1_b1
+u_logic/_al_u2831|cpuresetn_reg_hfnopt2_3.clk
+u_logic/_al_u3484|GPIO_Interface/reg1_b1
+1173 0.163000 3.899000 4.062000 0 1
+cpuresetn_hfnopt2_3 u_logic/_al_u3484|GPIO_Interface/reg1_b1.sr
+
+
+
+
+clock: clk
+1210 1379338 180 4
+Setup check
+1220 3
+Endpoint: u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1220 -1.474000 687362 3
+Timing path: u_logic/_al_u1755|u_logic/Eliax6_reg.clk->u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+u_logic/_al_u1755|u_logic/Eliax6_reg.clk
+u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1222 -1.474000 21.951000 23.425000 16 16
+u_logic/vis_ipsr_o[0] u_logic/_al_u1150|u_logic/_al_u1151.d[1]
+u_logic/_al_u1150_o u_logic/_al_u2250|u_logic/_al_u2363.a[0]
+u_logic/_al_u2363_o u_logic/_al_u2514|u_logic/Up4bx6_reg.d[1]
+u_logic/_al_u2514_o u_logic/_al_u2518|u_logic/_al_u2522.a[0]
+u_logic/_al_u2522_o u_logic/_al_u2535|u_logic/_al_u2507.b[1]
+u_logic/_al_u2535_o u_logic/_al_u2536|u_logic/_al_u4714.c[1]
+u_logic/Vwapw6 u_logic/_al_u2568.d[1]
+u_logic/P0biu6 u_logic/_al_u3071.a[1]
+u_logic/Aphiu6 u_logic/_al_u3114|u_logic/_al_u2962.d[1]
+u_logic/_al_u3114_o u_logic/_al_u3232|u_logic/_al_u4447.d[1]
+u_logic/_al_u3232_o u_logic/_al_u3279|u_logic/_al_u5002.b[1]
+u_logic/_al_u3279_o u_logic/_al_u3286|u_logic/_al_u3454.d[1]
+u_logic/Z18iu6_lutinv u_logic/_al_u3287|u_logic/_al_u4428.d[1]
+u_logic/E18iu6 u_logic/_al_u3288.d[1]
+u_logic/_al_u3288_o u_logic/_al_u3289|RAMDATA_Interface/reg0_b9.a[1]
+HTRANS[1] u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg.b[0]
+
+Timing path: u_logic/_al_u1755|u_logic/Eliax6_reg.clk->u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+u_logic/_al_u1755|u_logic/Eliax6_reg.clk
+u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1287 -1.474000 21.951000 23.425000 16 16
+u_logic/vis_ipsr_o[0] u_logic/_al_u1150|u_logic/_al_u1151.d[1]
+u_logic/_al_u1150_o u_logic/_al_u2250|u_logic/_al_u2363.a[0]
+u_logic/_al_u2363_o u_logic/_al_u2514|u_logic/Up4bx6_reg.d[1]
+u_logic/_al_u2514_o u_logic/_al_u2518|u_logic/_al_u2522.a[0]
+u_logic/_al_u2522_o u_logic/_al_u2535|u_logic/_al_u2507.b[1]
+u_logic/_al_u2535_o u_logic/_al_u2536|u_logic/_al_u4714.c[1]
+u_logic/Vwapw6 u_logic/_al_u2568.d[1]
+u_logic/P0biu6 u_logic/_al_u3071.a[0]
+u_logic/Aphiu6 u_logic/_al_u3114|u_logic/_al_u2962.d[1]
+u_logic/_al_u3114_o u_logic/_al_u3232|u_logic/_al_u4447.d[1]
+u_logic/_al_u3232_o u_logic/_al_u3279|u_logic/_al_u5002.b[1]
+u_logic/_al_u3279_o u_logic/_al_u3286|u_logic/_al_u3454.d[1]
+u_logic/Z18iu6_lutinv u_logic/_al_u3287|u_logic/_al_u4428.d[1]
+u_logic/E18iu6 u_logic/_al_u3288.d[1]
+u_logic/_al_u3288_o u_logic/_al_u3289|RAMDATA_Interface/reg0_b9.a[1]
+HTRANS[1] u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg.b[0]
+
+Timing path: u_logic/_al_u1755|u_logic/Eliax6_reg.clk->u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+u_logic/_al_u1755|u_logic/Eliax6_reg.clk
+u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1352 -1.474000 21.951000 23.425000 16 16
+u_logic/vis_ipsr_o[0] u_logic/_al_u1150|u_logic/_al_u1151.d[1]
+u_logic/_al_u1150_o u_logic/_al_u2250|u_logic/_al_u2363.a[0]
+u_logic/_al_u2363_o u_logic/_al_u2514|u_logic/Up4bx6_reg.d[1]
+u_logic/_al_u2514_o u_logic/_al_u2518|u_logic/_al_u2522.a[0]
+u_logic/_al_u2522_o u_logic/_al_u2535|u_logic/_al_u2507.b[1]
+u_logic/_al_u2535_o u_logic/_al_u2536|u_logic/_al_u4714.c[1]
+u_logic/Vwapw6 u_logic/_al_u2568.d[1]
+u_logic/P0biu6 u_logic/_al_u3071.a[1]
+u_logic/Aphiu6 u_logic/_al_u3114|u_logic/_al_u2962.d[1]
+u_logic/_al_u3114_o u_logic/_al_u3232|u_logic/_al_u4447.d[1]
+u_logic/_al_u3232_o u_logic/_al_u3279|u_logic/_al_u5002.b[1]
+u_logic/_al_u3279_o u_logic/_al_u3286|u_logic/_al_u3454.d[1]
+u_logic/Z18iu6_lutinv u_logic/_al_u3287|u_logic/_al_u4428.d[1]
+u_logic/E18iu6 u_logic/_al_u3288.d[0]
+u_logic/_al_u3288_o u_logic/_al_u3289|RAMDATA_Interface/reg0_b9.a[1]
+HTRANS[1] u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg.b[0]
+
+
+Endpoint: Matrix_Key_Interface/reg0_b3_DO
+1417 7.638000 124 3
+Timing path: u_logic/_al_u3868|u_logic/Qsfax6_reg.clk->Matrix_Key_Interface/reg0_b3_DO
+u_logic/_al_u3868|u_logic/Qsfax6_reg.clk
+Matrix_Key_Interface/reg0_b3_DO
+1419 7.638000 21.818000 14.180000 3 4
+u_logic/Qsfax6 u_logic/Zgbax6_reg.d[0]
+u_logic/Df4iu6 u_logic/_al_u1266|u_logic/_al_u2836.d[1]
+u_logic/_al_u1266_o u_logic/Oyhbx6_reg.d[1]
+HWDATA[3] Matrix_Key_Interface/reg0_b3_DO.do[0]
+
+Timing path: u_logic/_al_u3868|u_logic/Qsfax6_reg.clk->Matrix_Key_Interface/reg0_b3_DO
+u_logic/_al_u3868|u_logic/Qsfax6_reg.clk
+Matrix_Key_Interface/reg0_b3_DO
+1460 7.638000 21.818000 14.180000 3 4
+u_logic/Qsfax6 u_logic/Zgbax6_reg.d[0]
+u_logic/Df4iu6 u_logic/_al_u1266|u_logic/_al_u2836.d[1]
+u_logic/_al_u1266_o u_logic/Oyhbx6_reg.d[0]
+HWDATA[3] Matrix_Key_Interface/reg0_b3_DO.do[0]
+
+Timing path: u_logic/_al_u3471|u_logic/Xxqpw6_reg.clk->Matrix_Key_Interface/reg0_b3_DO
+u_logic/_al_u3471|u_logic/Xxqpw6_reg.clk
+Matrix_Key_Interface/reg0_b3_DO
+1501 8.043000 21.818000 13.775000 3 4
+u_logic/Xxqpw6 u_logic/Zgbax6_reg.b[0]
+u_logic/Df4iu6 u_logic/_al_u1266|u_logic/_al_u2836.d[1]
+u_logic/_al_u1266_o u_logic/Oyhbx6_reg.d[1]
+HWDATA[3] Matrix_Key_Interface/reg0_b3_DO.do[0]
+
+
+Endpoint: Matrix_Key_Interface/reg0_b0_DO
+1542 8.224000 110 3
+Timing path: u_logic/_al_u3471|u_logic/Xxqpw6_reg.clk->Matrix_Key_Interface/reg0_b0_DO
+u_logic/_al_u3471|u_logic/Xxqpw6_reg.clk
+Matrix_Key_Interface/reg0_b0_DO
+1544 8.224000 21.818000 13.594000 3 4
+u_logic/Xxqpw6 u_logic/_al_u1127|u_logic/Zx8ax6_reg.b[0]
+u_logic/T24iu6 u_logic/_al_u1213|u_logic/_al_u2791.d[1]
+u_logic/_al_u1213_o u_logic/Zszax6_reg.d[1]
+HWDATA[0] Matrix_Key_Interface/reg0_b0_DO.do[0]
+
+Timing path: u_logic/_al_u3471|u_logic/Xxqpw6_reg.clk->Matrix_Key_Interface/reg0_b0_DO
+u_logic/_al_u3471|u_logic/Xxqpw6_reg.clk
+Matrix_Key_Interface/reg0_b0_DO
+1585 8.224000 21.818000 13.594000 3 4
+u_logic/Xxqpw6 u_logic/_al_u1127|u_logic/Zx8ax6_reg.b[0]
+u_logic/T24iu6 u_logic/_al_u1213|u_logic/_al_u2791.d[1]
+u_logic/_al_u1213_o u_logic/Zszax6_reg.d[0]
+HWDATA[0] Matrix_Key_Interface/reg0_b0_DO.do[0]
+
+Timing path: u_logic/_al_u3868|u_logic/Qsfax6_reg.clk->Matrix_Key_Interface/reg0_b0_DO
+u_logic/_al_u3868|u_logic/Qsfax6_reg.clk
+Matrix_Key_Interface/reg0_b0_DO
+1626 8.448000 21.818000 13.370000 3 4
+u_logic/Qsfax6 u_logic/_al_u1127|u_logic/Zx8ax6_reg.d[0]
+u_logic/T24iu6 u_logic/_al_u1213|u_logic/_al_u2791.d[1]
+u_logic/_al_u1213_o u_logic/Zszax6_reg.d[1]
+HWDATA[0] Matrix_Key_Interface/reg0_b0_DO.do[0]
+
+
+
+Hold check
+1667 3
+Endpoint: keyboard/reg3_b0|keyboard/reg6_b0
+1669 0.586000 1 1
+Timing path: keyboard/reg3_b0|keyboard/reg6_b0.clk->keyboard/reg3_b0|keyboard/reg6_b0
+keyboard/reg3_b0|keyboard/reg6_b0.clk
+keyboard/reg3_b0|keyboard/reg6_b0
+1671 0.586000 2.141000 2.727000 0 1
+keyboard/key_reg0[0] keyboard/reg3_b0|keyboard/reg6_b0.mi[1]
+
+
+Endpoint: keyboard/scan_clk_reg
+1704 0.660000 1 1
+Timing path: keyboard/scan_clk_reg.clk->keyboard/scan_clk_reg
+keyboard/scan_clk_reg.clk
+keyboard/scan_clk_reg
+1706 0.660000 2.141000 2.801000 1 1
+keyboard/scan_clk keyboard/scan_clk_reg.a[0]
+
+
+Endpoint: keyboard/reg5_b24|keyboard/reg5_b25
+1739 1.352000 32 3
+Timing path: keyboard/reg5_b28|keyboard/reg5_b29.clk->keyboard/reg5_b24|keyboard/reg5_b25
+keyboard/reg5_b28|keyboard/reg5_b29.clk
+keyboard/reg5_b24|keyboard/reg5_b25
+1741 1.352000 2.205000 3.557000 2 3
+keyboard/cnt0[29] keyboard/reg5_b30|keyboard/reg5_b31.c[1]
+_al_u616_o keyboard/reg5_b28|keyboard/reg5_b29.b[0]
+keyboard/n0 keyboard/reg5_b24|keyboard/reg5_b25.sr
+
+Timing path: keyboard/reg5_b7|keyboard/reg5_b9.clk->keyboard/reg5_b24|keyboard/reg5_b25
+keyboard/reg5_b7|keyboard/reg5_b9.clk
+keyboard/reg5_b24|keyboard/reg5_b25
+1778 1.354000 2.205000 3.559000 2 3
+keyboard/cnt0[7] keyboard/reg5_b7|keyboard/reg5_b9.d[0]
+_al_u615_o keyboard/reg5_b28|keyboard/reg5_b29.d[0]
+keyboard/n0 keyboard/reg5_b24|keyboard/reg5_b25.sr
+
+Timing path: keyboard/reg5_b3|keyboard/reg5_b8.clk->keyboard/reg5_b24|keyboard/reg5_b25
+keyboard/reg5_b3|keyboard/reg5_b8.clk
+keyboard/reg5_b24|keyboard/reg5_b25
+1815 1.453000 2.205000 3.658000 2 3
+keyboard/cnt0[3] keyboard/reg5_b30|keyboard/reg5_b31.d[1]
+_al_u616_o keyboard/reg5_b28|keyboard/reg5_b29.b[0]
+keyboard/n0 keyboard/reg5_b24|keyboard/reg5_b25.sr
+
+
+
+Recovery check
+1852 1
+Endpoint: u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1854 15.988000 1 1
+Timing path: u_logic/_al_u2831|cpuresetn_reg_hfnopt2_3.clk->u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+u_logic/_al_u2831|cpuresetn_reg_hfnopt2_3.clk
+u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1856 15.988000 21.767000 5.779000 0 1
+cpuresetn_hfnopt2_3 u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg.sr
+
+
+
+Removal check
+1891 1
+Endpoint: u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1893 2.464000 1 1
+Timing path: u_logic/_al_u2831|cpuresetn_reg_hfnopt2_3.clk->u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+u_logic/_al_u2831|cpuresetn_reg_hfnopt2_3.clk
+u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg
+1895 2.464000 2.710000 5.174000 0 1
+cpuresetn_hfnopt2_3 u_logic/_al_u2862|Matrix_Key_Interface/wr_en_reg_reg.sr
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  System_clk (50.000MHz)                        22.068ns      45.314MHz        0.571ns      1461     -201.866ns
+	  clk (25.000MHz)                               41.474ns      24.111MHz        0.316ns        34       -1.474ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 5 clock net(s): 
+	LED_Interface/light_clk
+	Pwm_CLK
+	QN_REF24MHz_pad
+	keyboard/scan_clk
+	u_logic/SWCLKTCK_pad
+
